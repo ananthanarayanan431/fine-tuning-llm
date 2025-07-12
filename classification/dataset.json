@@ -1,0 +1,5762 @@
+[
+    {
+        "input": "The company incurred charges in Q2 for AWS services, including EC2 compute, S3 storage, and CloudWatch monitoring used across product development environments.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Cloud Services",
+            "l3": "Infrastructure",
+            "l4": "AWS"
+        }
+    },
+    {
+        "input": "Marketing department renewed the annual subscription to Adobe Creative Cloud, covering tools like Photoshop and Illustrator for branding campaigns.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Design Tools",
+            "l4": "Adobe Creative Cloud"
+        }
+    },
+    {
+        "input": "Senior executives traveled to San Francisco for a quarterly board meeting, incurring airfare, hotel, and ground transportation expenses.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Airfare",
+            "l4": "Executive Travel"
+        }
+    },
+    {
+        "input": "The finance team paid monthly rent for the New York headquarters, which houses over 150 employees and includes operational and meeting spaces.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Real Estate",
+            "l3": "Office Rent",
+            "l4": "New York HQ"
+        }
+    },
+    {
+        "input": "HR arranged a team-building event with full-service catering to celebrate Employee Appreciation Day, with attendance from all departments.",
+        "output": {
+            "l1": "Human Resources",
+            "l2": "Employee Welfare",
+            "l3": "Events",
+            "l4": "Catering"
+        }
+    },
+    {
+        "input": "A freelance backend developer was paid for a 3-month contract involving API integration and system optimization for the internal analytics platform.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Contractors",
+            "l3": "Development",
+            "l4": "Freelance Developer"
+        }
+    },
+    {
+        "input": "Annual corporate license for Microsoft 365 was renewed to provide company-wide access to productivity tools including Word, Excel, and Outlook.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Productivity Tools",
+            "l4": "Microsoft Office"
+        }
+    },
+    {
+        "input": "Sales representatives in Chicago submitted expense claims for Uber rides taken to visit client offices and attend regional networking events.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Local Travel",
+            "l3": "Rideshare",
+            "l4": "Uber"
+        }
+    },
+    {
+        "input": "The company paid its annual premium for commercial property insurance covering all office electronics and equipment in case of damage or loss.",
+        "output": {
+            "l1": "Administrative",
+            "l2": "Insurance",
+            "l3": "Property Insurance",
+            "l4": "Equipment Coverage"
+        }
+    },
+    {
+        "input": "Zoom enterprise subscription was renewed to support internal and external video meetings, webinars, and cross-functional collaboration across global teams.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Communication Tools",
+            "l3": "Video Conferencing",
+            "l4": "Zoom"
+        }
+    },
+    {
+        "input": "The engineering team upgraded their GitHub Enterprise license to enable advanced code security features and collaborative tools.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Development Tools",
+            "l4": "GitHub Enterprise"
+        }
+    },
+    {
+        "input": "The company subscribed to Snowflake for scalable cloud-based data warehousing to support real-time business intelligence analytics.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Cloud Services",
+            "l3": "Data Platforms",
+            "l4": "Snowflake"
+        }
+    },
+    {
+        "input": "Procurement renewed the annual antivirus and endpoint security subscription from CrowdStrike for enhanced system protection.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Security",
+            "l3": "Endpoint Protection",
+            "l4": "CrowdStrike"
+        }
+    },
+    {
+        "input": "The company migrated internal tooling from on-premise servers to Microsoft Azure, including deployment of virtual machines and managed databases.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Cloud Services",
+            "l3": "Infrastructure",
+            "l4": "Azure"
+        }
+    },
+    {
+        "input": "A new company-wide license for Slack was purchased to enable enhanced team communication and project-based collaboration.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Communication Tools",
+            "l3": "Team Messaging",
+            "l4": "Slack"
+        }
+    },
+    {
+        "input": "The regional sales team attended an industry conference in Berlin, with expenses covering hotel stays, flights, and meals.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "Berlin Summit"
+        }
+    },
+    {
+        "input": "Employees from different branches were flown to the headquarters for the annual strategy offsite and alignment workshop.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Offsite Meetings",
+            "l4": "Annual Strategy Summit"
+        }
+    },
+    {
+        "input": "The product team celebrated their successful Q3 launch with a team dinner and entertainment event funded by the department.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Team Engagement",
+            "l3": "Celebrations",
+            "l4": "Q3 Launch Dinner"
+        }
+    },
+    {
+        "input": "Field technicians submitted fuel and toll charges for long-distance site visits carried out in company vehicles.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Local Travel",
+            "l3": "Reimbursements",
+            "l4": "Field Ops Travel"
+        }
+    },
+    {
+        "input": "Customer success managers expensed meals with clients during onboarding sessions in the first two weeks post-sale.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Client Engagement",
+            "l3": "Meals & Dining",
+            "l4": "Client Onboarding Meals"
+        }
+    },
+    {
+        "input": "A legal consulting firm was hired to assist with data privacy compliance and draft the company's GDPR policy framework.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "GDPR Consulting"
+        }
+    },
+    {
+        "input": "A UI/UX design agency was contracted to revamp the mobile application for improved user experience and accessibility.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Design Services",
+            "l3": "User Experience",
+            "l4": "Mobile App Redesign"
+        }
+    },
+    {
+        "input": "A Deloitte financial advisory team was hired for internal audit and risk assessment across regional subsidiaries.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Finance",
+            "l3": "Auditing",
+            "l4": "Internal Risk Audit"
+        }
+    },
+    {
+        "input": "HR partnered with a staffing agency to fulfill niche technical roles that were challenging to source internally.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Recruitment",
+            "l3": "Staff Augmentation",
+            "l4": "Tech Talent Agency"
+        }
+    },
+    {
+        "input": "The company engaged a strategy consultant to review market trends and advise on international expansion plans.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Consulting",
+            "l3": "Strategic Advisory",
+            "l4": "Expansion Planning"
+        }
+    },
+    {
+        "input": "The office in Mumbai underwent HVAC system maintenance, and the vendor was paid for servicing and filter replacements.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Mumbai Office"
+        }
+    },
+    {
+        "input": "New ergonomic desks and chairs were purchased for the engineering team as part of a wellness initiative.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Office Supplies",
+            "l3": "Furniture",
+            "l4": "Ergonomic Setup"
+        }
+    },
+    {
+        "input": "The facility management team renewed the annual janitorial services contract to ensure daily cleaning of shared spaces.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Cleaning Services",
+            "l4": "Janitorial Contract"
+        }
+    },
+    {
+        "input": "Monthly water delivery service and pantry replenishment costs were billed to the facilities team.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Operations",
+            "l3": "Pantry",
+            "l4": "Water & Snacks"
+        }
+    },
+    {
+        "input": "A professional landscaping service was engaged to maintain the green space at the corporate headquarters.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Groundskeeping",
+            "l4": "Landscaping Services"
+        }
+    },
+    {
+        "input": "The data team procured a Tableau license to visualize KPIs and monitor sales performance dashboards across departments.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "BI Tools",
+            "l4": "Tableau"
+        }
+    },
+    {
+        "input": "Designers were provisioned with Adobe Creative Cloud licenses for access to Photoshop, Illustrator, and other design tools.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Design Software",
+            "l4": "Adobe CC"
+        }
+    },
+    {
+        "input": "The marketing department renewed their SEMrush subscription to enhance SEO, competitive analysis, and ad campaign research.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Marketing Tools",
+            "l4": "SEMrush"
+        }
+    },
+    {
+        "input": "The HR team was issued licenses for BambooHR to manage employee records, track leave balances, and streamline onboarding.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "HR Platforms",
+            "l4": "BambooHR"
+        }
+    },
+    {
+        "input": "Finance subscribed to QuickBooks Online to manage payroll, generate invoices, and maintain monthly account reconciliations.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Accounting Software",
+            "l4": "QuickBooks"
+        }
+    },
+    {
+        "input": "The legal team adopted DocuSign to streamline electronic signatures and maintain compliance in vendor contracts.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "E-Signature Tools",
+            "l4": "DocuSign"
+        }
+    },
+    {
+        "input": "Customer support migrated to Zendesk, acquiring support agent licenses for ticket tracking and customer satisfaction surveys.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Support Platforms",
+            "l4": "Zendesk"
+        }
+    },
+    {
+        "input": "Product managers were provided with licenses for Notion to organize roadmaps, feature specs, and cross-functional workflows.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Productivity Suites",
+            "l4": "Notion"
+        }
+    },
+    {
+        "input": "The analytics team licensed MATLAB for running predictive simulations and complex algorithmic modeling.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Scientific Computing",
+            "l4": "MATLAB"
+        }
+    },
+    {
+        "input": "An enterprise license for Atlassian Jira was purchased to track sprints, bug reports, and dev team performance.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "The product team upgraded to Asana Premium to manage cross-functional launch timelines and task dependencies.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Asana"
+        }
+    },
+    {
+        "input": "A new set of Trello Business Class licenses was issued to the design and content teams to coordinate campaign workflows.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Trello"
+        }
+    },
+    {
+        "input": "The engineering team renewed their Jira Software licenses for agile sprint tracking and backlog grooming.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "Program managers began using Monday.com licenses to streamline portfolio planning and task tracking.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Monday.com"
+        }
+    },
+    {
+        "input": "The operations team adopted ClickUp to manage interdepartmental projects and visualize progress with Gantt charts.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "ClickUp"
+        }
+    },
+    {
+        "input": "Wrike licenses were purchased for the marketing team to schedule campaigns, review timelines, and track approvals.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Wrike"
+        }
+    },
+    {
+        "input": "Basecamp was licensed for leadership teams to simplify milestone tracking, internal discussions, and document sharing.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Basecamp"
+        }
+    },
+    {
+        "input": "TeamGantt licenses were distributed to project coordinators to build detailed project plans with resource allocations.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "TeamGantt"
+        }
+    },
+    {
+        "input": "Smartsheet licenses were acquired to manage collaborative timelines, dependencies, and real-time updates for internal projects.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Smartsheet"
+        }
+    },
+    {
+        "input": "Zoho Projects was added to the stack for planning, budgeting, and automating workflows across distributed teams.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Zoho Projects"
+        }
+    },
+    {
+        "input": "The development team renewed Jira licenses to manage sprint planning and issue tracking for the next quarter.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "Project managers across business units were provided with Jira accounts to standardize task management processes.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "An enterprise-wide Jira license was purchased to integrate workflows across engineering, QA, and product teams.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "The company upgraded its Jira plan to include advanced automation and roadmap features for scaled agile frameworks.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "To support remote teams, Jira licenses were expanded to include global access and multilingual support options.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "Procurement approved additional Jira seats for the growing engineering team to maintain velocity tracking and story point estimation.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "Jira licenses were bundled with Atlassian Access to streamline user provisioning and improve security across the project lifecycle.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "The QA team integrated Jira with their testing suite to link test cases directly with user stories and bug tickets.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "To support DevOps workflows, Jira was linked with CI/CD pipelines and licenses were extended to the release engineering group.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "Annual Jira license costs were approved in the IT budget to ensure uninterrupted planning and sprint execution.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Software Licenses",
+            "l3": "Project Management",
+            "l4": "Jira"
+        }
+    },
+    {
+        "input": "The cybersecurity team deployed Okta for single sign-on and multi-factor authentication across all enterprise applications.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Security",
+            "l3": "Identity Management",
+            "l4": "Okta"
+        }
+    },
+    {
+        "input": "The analytics department purchased Tableau licenses to visualize company-wide KPIs and dashboards for the leadership team.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Business Intelligence",
+            "l3": "Data Visualization",
+            "l4": "Tableau"
+        }
+    },
+    {
+        "input": "The company implemented Datadog for infrastructure monitoring, log analytics, and application performance metrics.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Monitoring Tools",
+            "l3": "Application Monitoring",
+            "l4": "Datadog"
+        }
+    },
+    {
+        "input": "Procurement approved licenses for Adobe Creative Cloud to support the marketing team’s graphic design and video production needs.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Design Tools",
+            "l3": "Creative Software",
+            "l4": "Adobe Creative Cloud"
+        }
+    },
+    {
+        "input": "IT subscribed to GitLab Enterprise to centralize code repositories and automate CI/CD pipelines.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "DevOps",
+            "l3": "Version Control & Automation",
+            "l4": "GitLab"
+        }
+    },
+    {
+        "input": "The finance department implemented SAP ERP for integrated planning, accounting, and procurement workflows.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Enterprise Software",
+            "l3": "ERP Systems",
+            "l4": "SAP"
+        }
+    },
+    {
+        "input": "The cloud team procured Amazon Web Services (AWS) credits to run scalable back-end services and containerized microservices.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Cloud Services",
+            "l3": "Infrastructure",
+            "l4": "AWS"
+        }
+    },
+    {
+        "input": "The product analytics team migrated to Looker for real-time data exploration and self-service dashboards.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Business Intelligence",
+            "l3": "Analytics Platforms",
+            "l4": "Looker"
+        }
+    },
+    {
+        "input": "The development team licensed Postman for collaborative API testing, mocking, and documentation workflows.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Development Tools",
+            "l3": "API Testing",
+            "l4": "Postman"
+        }
+    },
+    {
+        "input": "The design team installed Figma Pro to enable collaborative interface design and real-time prototyping.",
+        "output": {
+            "l1": "IT & Software",
+            "l2": "Design Tools",
+            "l3": "UI/UX Design",
+            "l4": "Figma"
+        }
+    },
+    {
+        "input": "The marketing executives traveled to Singapore for a branding workshop and regional market study meetings.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Workshops",
+            "l4": "Singapore Branding Event"
+        }
+    },
+    {
+        "input": "Two engineering leads flew to San Francisco for vendor evaluation meetings with SaaS providers.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Vendor Meetings",
+            "l4": "SF SaaS Evaluation"
+        }
+    },
+    {
+        "input": "Company representatives attended the TechLeaders Summit in Dubai, incurring costs for airfare and accommodation.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "TechLeaders Dubai"
+        }
+    },
+    {
+        "input": "Regional directors visited retail outlets across India to review sales operations and implement new POS systems.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Site Visits",
+            "l4": "Retail Inspection Tour"
+        }
+    },
+    {
+        "input": "Executives traveled to Tokyo for year-end partnership renewal discussions and business dinners.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Partnership Meetings",
+            "l4": "Tokyo Renewals Trip"
+        }
+    },
+    {
+        "input": "The finance team traveled to the London office for internal audit discussions and compliance workshops.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Internal Meetings",
+            "l4": "London Audit Travel"
+        }
+    },
+    {
+        "input": "Managers were sent to the annual leadership training program held in Amsterdam, with expenses covered by HR.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Training Programs",
+            "l4": "Leadership Camp Amsterdam"
+        }
+    },
+    {
+        "input": "A cross-functional team visited a client in Chicago for a project kick-off meeting and requirements gathering.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Client Visits",
+            "l4": "Chicago Kickoff"
+        }
+    },
+    {
+        "input": "Employees traveled by train to attend the quarterly town hall hosted at the main regional hub.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Internal Events",
+            "l4": "Regional Town Hall"
+        }
+    },
+    {
+        "input": "A group of senior architects flew to Bangalore for infrastructure blueprint review and tech feasibility meetings.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Technical Reviews",
+            "l4": "Infra Blueprint Trip"
+        }
+    },
+    {
+        "input": "Senior developers attended the Global DevCon in Amsterdam to explore new backend architectures and scalable APIs.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "Global DevCon Amsterdam"
+        }
+    },
+    {
+        "input": "The sales team participated in the SaaStr Annual event in California to network with B2B SaaS leaders.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "SaaStr Annual"
+        }
+    },
+    {
+        "input": "Product managers flew to Paris for the UX World Summit focused on user-centered product innovation.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "UX World Summit Paris"
+        }
+    },
+    {
+        "input": "The C-suite team attended the World Economic Forum in Davos to explore macro trends and partnership opportunities.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "World Economic Forum"
+        }
+    },
+    {
+        "input": "Data scientists were invited to the Big Data & AI Conference in Toronto to present on real-time anomaly detection.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "Big Data & AI Toronto"
+        }
+    },
+    {
+        "input": "HR professionals participated in the Global HRTech Expo held in Dubai for insights into workforce automation.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "HRTech Expo Dubai"
+        }
+    },
+    {
+        "input": "Marketing heads were flown to Sydney to attend the Digital Growth Conference on data-driven branding.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "Digital Growth Sydney"
+        }
+    },
+    {
+        "input": "The AI research team joined the NeurIPS Conference in Vancouver to showcase their new generative model.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "NeurIPS Vancouver"
+        }
+    },
+    {
+        "input": "Operations managers attended the Lean Logistics Conference in Chicago to explore supply chain optimizations.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "Lean Logistics Chicago"
+        }
+    },
+    {
+        "input": "Customer success leaders joined the CS Leadership Forum in Barcelona to learn scalable customer onboarding strategies.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "CS Leadership Forum"
+        }
+    },
+    {
+        "input": "The innovation team attended the CES Conference in Las Vegas to scout emerging technologies and market trends.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "CES Las Vegas"
+        }
+    },
+    {
+        "input": "Legal representatives joined the Global Compliance Summit in Geneva to understand regulatory updates and global frameworks.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "Compliance Summit Geneva"
+        }
+    },
+    {
+        "input": "The engineering leadership team traveled to Tokyo for the International Software Engineering Conference.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "ISEC Tokyo"
+        }
+    },
+    {
+        "input": "Finance leads flew to the FinTech World Forum in London to explore blockchain applications in banking.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "FinTech World London"
+        }
+    },
+    {
+        "input": "The sustainability team attended the GreenTech Conference in Oslo focused on corporate environmental responsibility.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "GreenTech Oslo"
+        }
+    },
+    {
+        "input": "Company analysts participated in the Global Strategy Conference in Zurich for economic forecasting and risk assessment sessions.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "Global Strategy Zurich"
+        }
+    },
+    {
+        "input": "Security professionals traveled to Las Vegas to attend DEFCON for hands-on learning about cyberattack mitigation.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "DEFCON Las Vegas"
+        }
+    },
+    {
+        "input": "The AI team joined the CVPR conference in Seattle to present their latest paper on neural network optimization.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "CVPR Seattle"
+        }
+    },
+    {
+        "input": "Global procurement officers were flown to New Delhi for the International Vendor Compliance Conference.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "Vendor Compliance Summit"
+        }
+    },
+    {
+        "input": "The digital marketing team joined the AdTech Global Conference in New York to evaluate advertising automation platforms.",
+        "output": {
+            "l1": "Travel & Entertainment",
+            "l2": "Business Travel",
+            "l3": "Conferences",
+            "l4": "AdTech Global NY"
+        }
+    },
+    {
+        "input": "External legal counsel was brought in to review third-party vendor agreements and ensure contractual safeguards were in place.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Contract Review",
+            "l4": "Vendor Agreements"
+        }
+    },
+    {
+        "input": "A law firm was hired to provide intellectual property protection services, including trademark registration.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "IP Services",
+            "l4": "Trademark Filing"
+        }
+    },
+    {
+        "input": "An external team provided litigation support for an ongoing commercial dispute with a former partner.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Litigation",
+            "l4": "Dispute Resolution"
+        }
+    },
+    {
+        "input": "Legal consultants were engaged to prepare regulatory filings for the new product launch in the healthcare sector.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Regulatory Affairs",
+            "l4": "Product Compliance"
+        }
+    },
+    {
+        "input": "A data privacy attorney was hired to lead the organization's CCPA readiness assessment and recommend controls.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "CCPA Legal Review"
+        }
+    },
+    {
+        "input": "Outside legal experts were retained to oversee employee policy updates in line with labor law amendments.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Labor Law",
+            "l4": "HR Policy Review"
+        }
+    },
+    {
+        "input": "The M&A legal advisory team was contracted to support due diligence for the acquisition of a regional competitor.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Mergers & Acquisitions",
+            "l4": "Due Diligence"
+        }
+    },
+    {
+        "input": "A legal risk assessment firm was appointed to evaluate the impact of emerging AI regulations on internal systems.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Regulatory Risk",
+            "l4": "AI Compliance Audit"
+        }
+    },
+    {
+        "input": "Corporate legal advisors were engaged to restructure board governance documents in line with shareholder demands.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Governance",
+            "l4": "Board Restructuring"
+        }
+    },
+    {
+        "input": "A specialized firm offered legal opinion on cross-border data transfer restrictions to help finalize SaaS contracts.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Data Law",
+            "l4": "Cross-Border Review"
+        }
+    },
+    {
+        "input": "A law firm was retained to ensure ongoing compliance with international data protection regulations, including GDPR and CCPA.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Data Privacy Audit"
+        }
+    },
+    {
+        "input": "External legal advisors reviewed new product features to verify alignment with regulatory compliance standards.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Product Compliance Review"
+        }
+    },
+    {
+        "input": "The compliance team worked with legal experts to assess risk exposure in foreign markets.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Market Risk Assessment"
+        }
+    },
+    {
+        "input": "An external consultant evaluated the company’s adherence to anti-bribery and corruption laws across Southeast Asia.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "ABC Policy Check"
+        }
+    },
+    {
+        "input": "Legal specialists conducted a full audit of internal policies to ensure regulatory compliance before IPO filing.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Pre-IPO Legal Audit"
+        }
+    },
+    {
+        "input": "A law firm was brought in to develop new whistleblower protection policies in line with updated compliance guidelines.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Whistleblower Framework"
+        }
+    },
+    {
+        "input": "Regulatory compliance consultants conducted a detailed gap analysis of internal financial reporting procedures.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Financial Controls Review"
+        }
+    },
+    {
+        "input": "Legal teams supported internal efforts to align employee data handling procedures with labor law compliance requirements.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Workforce Data Audit"
+        }
+    },
+    {
+        "input": "The firm hired external counsel to perform a compliance health check ahead of entering a regulated industry.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Entry Market Compliance"
+        }
+    },
+    {
+        "input": "Lawyers conducted a thorough compliance audit on third-party vendor contracts related to financial disclosures.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Compliance",
+            "l4": "Vendor Compliance Review"
+        }
+    },
+    {
+        "input": "The legal team brought in external attorneys to review international intellectual property filings and protect key trademarks.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Intellectual Property",
+            "l4": "Trademark Protection"
+        }
+    },
+    {
+        "input": "A branding consultancy was hired to develop a new corporate identity and visual language after the recent merger.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Design Services",
+            "l3": "Branding",
+            "l4": "Corporate Identity Overhaul"
+        }
+    },
+    {
+        "input": "External auditors from PwC performed a quarterly financial review for the leadership team and board reporting.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Finance",
+            "l3": "Auditing",
+            "l4": "Quarterly Financial Review"
+        }
+    },
+    {
+        "input": "The HR department contracted a global recruitment agency to help fill senior leadership positions in Europe and APAC.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Recruitment",
+            "l3": "Executive Search",
+            "l4": "Leadership Hiring Support"
+        }
+    },
+    {
+        "input": "A strategic consulting firm was engaged to conduct a SWOT analysis and advise on diversification into new verticals.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Consulting",
+            "l3": "Business Strategy",
+            "l4": "Diversification Advisory"
+        }
+    },
+    {
+        "input": "The marketing team brought in a creative agency to storyboard and produce promotional videos for a new product campaign.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Design Services",
+            "l3": "Creative Production",
+            "l4": "Product Promo Video"
+        }
+    },
+    {
+        "input": "An external workforce analytics firm was hired to help the company forecast attrition and optimize retention strategies.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "HR Services",
+            "l3": "Workforce Planning",
+            "l4": "Attrition Forecasting"
+        }
+    },
+    {
+        "input": "A legal firm was consulted to handle regulatory filings and due diligence for a potential acquisition target.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Mergers & Acquisitions",
+            "l4": "Regulatory Filing Support"
+        }
+    },
+    {
+        "input": "A specialized finance team was brought in to advise on tax planning strategies for international expansion.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Finance",
+            "l3": "Tax Advisory",
+            "l4": "Cross-Border Tax Planning"
+        }
+    },
+    {
+        "input": "The HR function partnered with a diversity consultant to develop inclusive hiring practices and equity benchmarks.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Consulting",
+            "l3": "DEI Advisory",
+            "l4": "Inclusive Hiring Strategy"
+        }
+    },
+    {
+        "input": "The company retained a compliance advisory firm to review regulatory changes affecting operations across multiple jurisdictions.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Regulatory Advisory",
+            "l4": "Multi-Jurisdiction Compliance"
+        }
+    },
+    {
+        "input": "An agency specializing in accessibility was hired to audit the website and ensure WCAG 2.1 compliance.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Design Services",
+            "l3": "Accessibility",
+            "l4": "WCAG Audit"
+        }
+    },
+    {
+        "input": "The finance department hired external consultants to support the automation of tax filing processes for U.S. and EMEA regions.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Finance",
+            "l3": "Tax Automation",
+            "l4": "Filing Process Optimization"
+        }
+    },
+    {
+        "input": "A leadership development firm facilitated a three-month coaching program for new managers across departments.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "HR Services",
+            "l3": "Leadership Training",
+            "l4": "Manager Coaching Program"
+        }
+    },
+    {
+        "input": "External consultants were brought in to assist with change management during the ERP system migration project.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Consulting",
+            "l3": "Change Management",
+            "l4": "ERP Transition Support"
+        }
+    },
+    {
+        "input": "An audit firm conducted an ESG assessment to help the company align reporting with sustainability frameworks.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Finance",
+            "l3": "Sustainability Reporting",
+            "l4": "ESG Compliance Review"
+        }
+    },
+    {
+        "input": "A data analytics consulting agency was hired to create dashboards for executive decision-making using real-time KPIs.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Consulting",
+            "l3": "Data Analytics",
+            "l4": "Executive Dashboard Design"
+        }
+    },
+    {
+        "input": "External design professionals developed an interactive product showcase to be featured at an upcoming global trade show.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Design Services",
+            "l3": "Event Collateral",
+            "l4": "Interactive Showcase Design"
+        }
+    },
+    {
+        "input": "The legal department engaged a patent law firm to handle filings and defend against IP infringement litigation.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "Legal",
+            "l3": "Patent Services",
+            "l4": "IP Protection & Defense"
+        }
+    },
+    {
+        "input": "The HR team consulted a global payroll specialist to align compensation structures with international labor laws.",
+        "output": {
+            "l1": "Professional Services",
+            "l2": "HR Services",
+            "l3": "Global Payroll",
+            "l4": "Compensation Structuring"
+        }
+    },
+    {
+        "input": "The company signed a new lease agreement for additional office space to accommodate growing teams.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Real Estate",
+            "l3": "Lease Agreements",
+            "l4": "Expansion Lease"
+        }
+    },
+    {
+        "input": "An electrician was hired to upgrade the lighting fixtures to energy-efficient LEDs across all workstations.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Electrical",
+            "l4": "LED Upgrade"
+        }
+    },
+    {
+        "input": "A pest control service conducted quarterly fumigation at all branches to ensure workplace hygiene and safety.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Sanitation",
+            "l4": "Pest Control"
+        }
+    },
+    {
+        "input": "New digital access control systems were installed at the main entrances to improve building security.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Security",
+            "l3": "Access Control",
+            "l4": "Keycard System"
+        }
+    },
+    {
+        "input": "Fire extinguishers and emergency signage were inspected and replaced to comply with safety regulations.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Safety",
+            "l3": "Compliance",
+            "l4": "Fire Safety Audit"
+        }
+    },
+    {
+        "input": "The cafeteria kitchen equipment was serviced and certified for hygiene compliance before reopening.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Operations",
+            "l3": "Catering Services",
+            "l4": "Kitchen Maintenance"
+        }
+    },
+    {
+        "input": "The reception lobby was refurbished with new paint, signage, and furniture to enhance the visitor experience.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Renovation",
+            "l3": "Interior Design",
+            "l4": "Lobby Upgrade"
+        }
+    },
+    {
+        "input": "A new vendor was contracted to provide biodegradable cleaning products as part of the sustainability initiative.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Procurement",
+            "l3": "Supplies",
+            "l4": "Eco Cleaning Materials"
+        }
+    },
+    {
+        "input": "IT server room underwent climate control system installation to regulate temperature and protect infrastructure.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Environment Control",
+            "l4": "Server Room HVAC"
+        }
+    },
+    {
+        "input": "Biometric time attendance devices were installed at entry points to track employee in-and-out times.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Security",
+            "l3": "Workplace Monitoring",
+            "l4": "Biometric Setup"
+        }
+    },
+    {
+        "input": "The HVAC contractor was called in to fix a malfunctioning air conditioning unit on the 3rd floor.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "A/C Repair"
+        }
+    },
+    {
+        "input": "The company scheduled quarterly deep cleaning of all carpets and upholstery in common areas.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Cleaning Services",
+            "l4": "Carpet Steam Clean"
+        }
+    },
+    {
+        "input": "Elevator systems in the building were inspected and serviced to ensure smooth operation.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Mechanical",
+            "l4": "Elevator Servicing"
+        }
+    },
+    {
+        "input": "Routine plumbing checks were conducted to fix leaks and replace aging pipe connectors.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Plumbing",
+            "l4": "Leak Repairs"
+        }
+    },
+    {
+        "input": "The exterior lighting system was maintained and new motion-sensor lights were installed for security.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Electrical",
+            "l4": "Lighting Update"
+        }
+    },
+    {
+        "input": "Annual generator maintenance was completed, including oil changes and load testing procedures.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Power Backup",
+            "l4": "Generator Service"
+        }
+    },
+    {
+        "input": "Restroom fixtures were replaced and hand dryers were upgraded as part of a maintenance initiative.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Restroom Upkeep",
+            "l4": "Fixture Upgrade"
+        }
+    },
+    {
+        "input": "The rooftop solar panels were cleaned and inspected for performance issues after the monsoon season.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Energy Systems",
+            "l4": "Solar Panel Maintenance"
+        }
+    },
+    {
+        "input": "An external contractor was hired for repainting the parking lot markings and directional signs.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Infrastructure",
+            "l4": "Parking Repaint"
+        }
+    },
+    {
+        "input": "Security doors and locks were tested and replaced where necessary to ensure access control compliance.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Security Fixtures",
+            "l4": "Lock Replacement"
+        }
+    },
+    {
+        "input": "Technicians serviced the HVAC units in the executive floor to address inconsistent cooling issues.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Executive Floor AC Tune-up"
+        }
+    },
+    {
+        "input": "Air filters were replaced in all air handling units to improve indoor air quality across departments.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Filter Replacement"
+        }
+    },
+    {
+        "input": "A third-party contractor inspected and cleaned HVAC ducts to remove dust and contaminants.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Duct Cleaning"
+        }
+    },
+    {
+        "input": "The facility team scheduled pre-winter HVAC inspections to ensure heating functionality across all offices.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Winter Prep Inspection"
+        }
+    },
+    {
+        "input": "Cooling coils were descaled and flushed to boost performance in the server room air conditioning system.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Server Room Coil Service"
+        }
+    },
+    {
+        "input": "Temperature sensors in HVAC systems were recalibrated to address complaints of temperature fluctuations.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Sensor Calibration"
+        }
+    },
+    {
+        "input": "The rooftop HVAC condensers were flushed and serviced after a series of power surges last month.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Condenser Flushing"
+        }
+    },
+    {
+        "input": "Emergency HVAC repair was performed over the weekend due to complete AC failure in the finance wing.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Emergency AC Repair"
+        }
+    },
+    {
+        "input": "Annual maintenance contract was renewed with the HVAC vendor to cover all six office locations.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "AMC Renewal"
+        }
+    },
+    {
+        "input": "The HVAC software system was updated to allow remote diagnostics and real-time system alerts.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "HVAC",
+            "l4": "Software Upgrade"
+        }
+    },
+    {
+        "input": "The backup generator at the headquarters was serviced after an unexpected outage during a storm.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Power Systems",
+            "l4": "Generator Service"
+        }
+    },
+    {
+        "input": "Restrooms across three floors were renovated with touchless faucets and improved ventilation systems.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Renovation",
+            "l3": "Sanitary Upgrades",
+            "l4": "Restroom Renovation"
+        }
+    },
+    {
+        "input": "A pest control agency was contracted to perform monthly inspections and treatment in cafeteria and storage areas.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Maintenance",
+            "l3": "Sanitation",
+            "l4": "Pest Control"
+        }
+    },
+    {
+        "input": "New signage was installed across all office floors to improve navigation and meet compliance requirements.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Operations",
+            "l3": "Workplace Aesthetics",
+            "l4": "Wayfinding Signage"
+        }
+    },
+    {
+        "input": "The security team upgraded the access control systems with biometric authentication at all entry points.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Security",
+            "l3": "Access Control",
+            "l4": "Biometric Upgrade"
+        }
+    },
+    {
+        "input": "An interior design firm was brought in to create a more collaborative and open workspace layout.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Renovation",
+            "l3": "Interior Design",
+            "l4": "Open Office Concept"
+        }
+    },
+    {
+        "input": "CCTV systems were expanded to cover parking lots and loading areas for better after-hours monitoring.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Security",
+            "l3": "Surveillance",
+            "l4": "CCTV Expansion"
+        }
+    },
+    {
+        "input": "The cafeteria's kitchen equipment was upgraded to support increased demand during peak lunch hours.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Operations",
+            "l3": "Food Services",
+            "l4": "Kitchen Equipment Upgrade"
+        }
+    },
+    {
+        "input": "Fire extinguishers and emergency exit signage were inspected and replaced in accordance with fire safety norms.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Safety",
+            "l3": "Fire Prevention",
+            "l4": "Safety Audit"
+        }
+    },
+    {
+        "input": "Electric vehicle charging stations were installed in the basement parking for employees and visitors.",
+        "output": {
+            "l1": "Facilities",
+            "l2": "Infrastructure",
+            "l3": "Sustainability",
+            "l4": "EV Charging Setup"
+        }
+    },
+    {
+    "input": "The data science department acquired additional compute instances from AWS for model training pipelines.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Infrastructure",
+      "l4": "AWS EC2"
+    }
+  },
+  {
+    "input": "A subscription for JetBrains IntelliJ IDEA was purchased for the backend development team to boost Java productivity.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Software Licenses",
+      "l3": "Development Tools",
+      "l4": "IntelliJ IDEA"
+    }
+  },
+  {
+    "input": "The product analytics team implemented Amplitude to track user behavior across mobile and web platforms.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Analytics",
+      "l3": "Product Usage",
+      "l4": "Amplitude"
+    }
+  },
+  {
+    "input": "Zoom Video Communications licenses were renewed to support cross-functional remote collaboration.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Communication Tools",
+      "l3": "Video Conferencing",
+      "l4": "Zoom"
+    }
+  },
+  {
+    "input": "The DevSecOps team introduced Snyk for scanning code repositories for open-source vulnerabilities.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Code Scanning",
+      "l4": "Snyk"
+    }
+  },
+  {
+    "input": "An enterprise plan of Jira Service Management was adopted for better issue tracking and ticketing support.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Project Management",
+      "l3": "Ticketing Systems",
+      "l4": "Jira Service Desk"
+    }
+  },
+  {
+    "input": "Okta was chosen as the centralized identity provider for managing user authentication and SSO integrations.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Identity Management",
+      "l4": "Okta"
+    }
+  },
+  {
+    "input": "A Tableau Server deployment was set up for the executive team to visualize business intelligence reports.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Analytics",
+      "l3": "Data Visualization",
+      "l4": "Tableau"
+    }
+  },
+  {
+    "input": "Salesforce API integration support tools were procured to automate lead enrichment and CRM updates.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "CRM",
+      "l3": "Integrations",
+      "l4": "Salesforce APIs"
+    }
+  },
+  {
+    "input": "Engineering teams upgraded from PostgreSQL to CockroachDB to scale transaction-heavy services.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Databases",
+      "l3": "Distributed Systems",
+      "l4": "CockroachDB"
+    }
+  },
+  {
+    "input": "The content team subscribed to Grammarly Business to improve writing consistency across documents.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Productivity",
+      "l3": "Writing Tools",
+      "l4": "Grammarly"
+    }
+  },
+  {
+    "input": "Splunk was used for centralized logging and incident management during infrastructure scaling.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Monitoring",
+      "l3": "Log Analysis",
+      "l4": "Splunk"
+    }
+  },
+  {
+    "input": "The mobile app team purchased Figma licenses for collaborative wireframing and prototyping.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Design Tools",
+      "l3": "Prototyping",
+      "l4": "Figma"
+    }
+  },
+  {
+    "input": "ElasticSearch deployment was expanded to support full-text search for the growing product catalog.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Databases",
+      "l3": "Search Engines",
+      "l4": "ElasticSearch"
+    }
+  },
+  {
+    "input": "Company-wide password management was standardized using 1Password Business for secure credential sharing.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Access Management",
+      "l4": "1Password"
+    }
+  },
+  {
+    "input": "The backend team opted for Redis Enterprise to enhance in-memory caching and reduce API response times.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Databases",
+      "l3": "Caching",
+      "l4": "Redis"
+    }
+  },
+  {
+    "input": "Web developers procured license bundles for BrowserStack to test cross-browser compatibility.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Testing",
+      "l3": "Cross-Browser Testing",
+      "l4": "BrowserStack"
+    }
+  },
+  {
+    "input": "The company implemented Freshdesk to streamline customer support and automate ticket resolution workflows.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Support Tools",
+      "l3": "Help Desk",
+      "l4": "Freshdesk"
+    }
+  },
+  {
+    "input": "Contracted an AWS Solutions Architect to audit the current cloud setup and reduce monthly spend.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Consulting",
+      "l4": "AWS Audit"
+    }
+  },
+  {
+    "input": "Upgraded to Bitbucket Premium for advanced CI/CD features and secure code repository management.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development Tools",
+      "l3": "Version Control",
+      "l4": "Bitbucket"
+    }
+  },
+  {
+    "input": "The data science department acquired additional compute instances from AWS for model training pipelines.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Infrastructure",
+      "l4": "AWS EC2"
+    }
+  },
+  {
+    "input": "A subscription for JetBrains IntelliJ IDEA was purchased for the backend development team to boost Java productivity.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Software Licenses",
+      "l3": "Development Tools",
+      "l4": "IntelliJ IDEA"
+    }
+  },
+  {
+    "input": "The product analytics team implemented Amplitude to track user behavior across mobile and web platforms.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Analytics",
+      "l3": "Product Usage",
+      "l4": "Amplitude"
+    }
+  },
+  {
+    "input": "Zoom Video Communications licenses were renewed to support cross-functional remote collaboration.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Communication Tools",
+      "l3": "Video Conferencing",
+      "l4": "Zoom"
+    }
+  },
+  {
+    "input": "The DevSecOps team introduced Snyk for scanning code repositories for open-source vulnerabilities.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Code Scanning",
+      "l4": "Snyk"
+    }
+  },
+  {
+    "input": "An enterprise plan of Jira Service Management was adopted for better issue tracking and ticketing support.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Project Management",
+      "l3": "Ticketing Systems",
+      "l4": "Jira Service Desk"
+    }
+  },
+  {
+    "input": "Okta was chosen as the centralized identity provider for managing user authentication and SSO integrations.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Identity Management",
+      "l4": "Okta"
+    }
+  },
+  {
+    "input": "A Tableau Server deployment was set up for the executive team to visualize business intelligence reports.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Analytics",
+      "l3": "Data Visualization",
+      "l4": "Tableau"
+    }
+  },
+  {
+    "input": "Salesforce API integration support tools were procured to automate lead enrichment and CRM updates.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "CRM",
+      "l3": "Integrations",
+      "l4": "Salesforce APIs"
+    }
+  },
+  {
+    "input": "Engineering teams upgraded from PostgreSQL to CockroachDB to scale transaction-heavy services.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Databases",
+      "l3": "Distributed Systems",
+      "l4": "CockroachDB"
+    }
+  },
+  {
+    "input": "The content team subscribed to Grammarly Business to improve writing consistency across documents.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Productivity",
+      "l3": "Writing Tools",
+      "l4": "Grammarly"
+    }
+  },
+  {
+    "input": "Splunk was used for centralized logging and incident management during infrastructure scaling.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Monitoring",
+      "l3": "Log Analysis",
+      "l4": "Splunk"
+    }
+  },
+  {
+    "input": "The mobile app team purchased Figma licenses for collaborative wireframing and prototyping.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Design Tools",
+      "l3": "Prototyping",
+      "l4": "Figma"
+    }
+  },
+  {
+    "input": "ElasticSearch deployment was expanded to support full-text search for the growing product catalog.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Databases",
+      "l3": "Search Engines",
+      "l4": "ElasticSearch"
+    }
+  },
+  {
+    "input": "Company-wide password management was standardized using 1Password Business for secure credential sharing.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Access Management",
+      "l4": "1Password"
+    }
+  },
+  {
+    "input": "The backend team opted for Redis Enterprise to enhance in-memory caching and reduce API response times.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Databases",
+      "l3": "Caching",
+      "l4": "Redis"
+    }
+  },
+  {
+    "input": "Web developers procured license bundles for BrowserStack to test cross-browser compatibility.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Testing",
+      "l3": "Cross-Browser Testing",
+      "l4": "BrowserStack"
+    }
+  },
+  {
+    "input": "The company implemented Freshdesk to streamline customer support and automate ticket resolution workflows.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Support Tools",
+      "l3": "Help Desk",
+      "l4": "Freshdesk"
+    }
+  },
+  {
+    "input": "Contracted an AWS Solutions Architect to audit the current cloud setup and reduce monthly spend.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Consulting",
+      "l4": "AWS Audit"
+    }
+  },
+  {
+    "input": "Upgraded to Bitbucket Premium for advanced CI/CD features and secure code repository management.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development Tools",
+      "l3": "Version Control",
+      "l4": "Bitbucket"
+    }
+  },
+  {
+    "input": "The QA team implemented Cypress for end-to-end testing of frontend workflows during every deployment.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Testing",
+      "l3": "Automation",
+      "l4": "Cypress"
+    }
+  },
+  {
+    "input": "The team provisioned Kubernetes clusters using GKE to manage containerized workloads at scale.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Container Management",
+      "l4": "Google Kubernetes Engine"
+    }
+  },
+  {
+    "input": "The DevOps team migrated CI pipelines from Jenkins to GitHub Actions for better integration and visibility.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development Tools",
+      "l3": "CI/CD",
+      "l4": "GitHub Actions"
+    }
+  },
+  {
+    "input": "A digital whiteboarding tool, Miro, was licensed for brainstorming and collaborative workshops.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Productivity",
+      "l3": "Collaboration",
+      "l4": "Miro"
+    }
+  },
+  {
+    "input": "The company adopted Datadog for real-time system monitoring, alerting, and log collection.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Monitoring",
+      "l3": "Observability",
+      "l4": "Datadog"
+    }
+  },
+  {
+    "input": "The engineering team integrated LaunchDarkly to control feature rollouts using flags.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development Tools",
+      "l3": "Feature Management",
+      "l4": "LaunchDarkly"
+    }
+  },
+  {
+    "input": "To improve API documentation and client adoption, the team began using Postman Enterprise.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "APIs",
+      "l3": "Testing Tools",
+      "l4": "Postman"
+    }
+  },
+  {
+    "input": "To manage third-party risks, the security team introduced Vanta for automated SOC 2 compliance.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Compliance",
+      "l4": "Vanta SOC2"
+    }
+  },
+  {
+    "input": "MFA policies were enforced using Duo Security across employee devices and systems.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Multi-Factor Authentication",
+      "l4": "Duo"
+    }
+  },
+  {
+    "input": "The tech team used Terraform to define and provision infrastructure as code across multiple cloud providers.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Infrastructure Automation",
+      "l4": "Terraform"
+    }
+  },
+  {
+    "input": "The marketing department used Hotjar to analyze heatmaps and behavior patterns on the landing page.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Analytics",
+      "l3": "User Behavior",
+      "l4": "Hotjar"
+    }
+  },
+  {
+    "input": "Teams adopted Slack Connect to securely collaborate with external vendors and partners.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Communication Tools",
+      "l3": "Messaging",
+      "l4": "Slack Connect"
+    }
+  },
+  {
+    "input": "An in-house NLP model was trained using Hugging Face Transformers for document classification.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "AI & ML",
+      "l3": "NLP",
+      "l4": "Hugging Face"
+    }
+  },
+  {
+    "input": "The infrastructure team opted for Cloudflare for global CDN and DDoS protection services.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Web Protection",
+      "l4": "Cloudflare"
+    }
+  },
+  {
+    "input": "The backend team integrated Stripe for handling international payments and subscriptions.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Payment Systems",
+      "l3": "Gateways",
+      "l4": "Stripe"
+    }
+  },
+  {
+    "input": "Engineers used New Relic to monitor application performance metrics and reduce latency issues.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Monitoring",
+      "l3": "Performance",
+      "l4": "New Relic"
+    }
+  },
+  {
+    "input": "The team migrated source control from GitLab to GitHub to unify CI/CD workflows and code review.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development Tools",
+      "l3": "Version Control",
+      "l4": "GitHub Migration"
+    }
+  },
+  {
+    "input": "A service mesh was introduced using Istio to better manage microservice-to-microservice traffic.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Service Mesh",
+      "l4": "Istio"
+    }
+  },
+  {
+    "input": "The data engineering team implemented Apache Kafka for real-time event streaming across services.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Data Engineering",
+      "l3": "Streaming",
+      "l4": "Apache Kafka"
+    }
+  },
+  {
+    "input": "Airtable was used as a lightweight project tracker for early-stage teams with flexible workflows.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Productivity",
+      "l3": "Project Tracking",
+      "l4": "Airtable"
+    }
+  },
+  {
+    "input": "The mobile development team migrated the app from React Native to Flutter for improved performance and UI consistency.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development",
+      "l3": "Mobile Frameworks",
+      "l4": "Flutter Migration"
+    }
+  },
+  {
+    "input": "AWS S3 buckets were configured with lifecycle rules to automate archival and reduce storage costs.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Storage Management",
+      "l4": "AWS S3"
+    }
+  },
+  {
+    "input": "The IT team rolled out Okta for unified identity and access management across all SaaS platforms.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Identity Management",
+      "l4": "Okta IAM"
+    }
+  },
+  {
+    "input": "Backend services were refactored into microservices using Spring Boot to enhance scalability.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development",
+      "l3": "Microservices",
+      "l4": "Spring Boot"
+    }
+  },
+  {
+    "input": "A Confluence knowledge base was created to centralize internal documentation and onboarding material.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Productivity",
+      "l3": "Documentation",
+      "l4": "Confluence"
+    }
+  },
+  {
+    "input": "The support team deployed Freshdesk to handle customer tickets and automate SLA workflows.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Support Tools",
+      "l3": "Ticketing Systems",
+      "l4": "Freshdesk"
+    }
+  },
+  {
+    "input": "The team used Zapier to automate workflows between marketing tools and CRM systems.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Automation",
+      "l3": "Integrations",
+      "l4": "Zapier"
+    }
+  },
+  {
+    "input": "The machine learning team built a recommendation engine using collaborative filtering in PyTorch.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "AI & ML",
+      "l3": "Recommendation Systems",
+      "l4": "PyTorch"
+    }
+  },
+  {
+    "input": "Infrastructure blueprints were created using AWS CloudFormation to enable repeatable deployments.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Infrastructure as Code",
+      "l4": "CloudFormation"
+    }
+  },
+  {
+    "input": "The marketing website's static content was moved to Netlify for faster global delivery.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Hosting",
+      "l3": "Static Sites",
+      "l4": "Netlify"
+    }
+  },
+  {
+    "input": "The team implemented a GraphQL API to improve frontend query efficiency and reduce overfetching.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "APIs",
+      "l3": "Query Language",
+      "l4": "GraphQL"
+    }
+  },
+  {
+    "input": "Penetration testing was outsourced to a third-party firm for vulnerability assessment of web apps.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Vulnerability Testing",
+      "l4": "Penetration Testing"
+    }
+  },
+  {
+    "input": "The data team used Apache Airflow to schedule ETL jobs and manage complex data pipelines.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Data Engineering",
+      "l3": "Workflow Management",
+      "l4": "Apache Airflow"
+    }
+  },
+  {
+    "input": "The frontend developers used Figma for UI design collaboration and prototyping.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Design Tools",
+      "l3": "UI/UX",
+      "l4": "Figma"
+    }
+  },
+  {
+    "input": "To prevent code duplication, the dev team centralized shared utilities into an internal npm package.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development Tools",
+      "l3": "Package Management",
+      "l4": "Internal npm"
+    }
+  },
+  {
+    "input": "The company launched a chatbot powered by Dialogflow to automate customer support.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "AI & ML",
+      "l3": "Conversational AI",
+      "l4": "Dialogflow"
+    }
+  },
+  {
+    "input": "The DevOps team added Snyk to scan dependencies for known vulnerabilities in real time.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Dependency Scanning",
+      "l4": "Snyk"
+    }
+  },
+  {
+    "input": "Helm charts were introduced for templating Kubernetes deployments and managing Helm releases.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Kubernetes Management",
+      "l4": "Helm"
+    }
+  },
+  {
+    "input": "Google BigQuery was chosen as the primary data warehouse for large-scale analytics and BI reporting.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Data Engineering",
+      "l3": "Data Warehousing",
+      "l4": "BigQuery"
+    }
+  },
+  {
+    "input": "Jira was extended with custom workflows to track QA approvals and bug resolution timelines.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Productivity",
+      "l3": "Issue Tracking",
+      "l4": "Jira"
+    }
+  },
+  {
+    "input": "The data analytics team adopted Tableau for interactive dashboards and executive data visualizations.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Data Analytics",
+      "l3": "Visualization Tools",
+      "l4": "Tableau Dashboards"
+    }
+  },
+  {
+    "input": "The security team enabled two-factor authentication using Google Authenticator for employee logins.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Access Control",
+      "l4": "Two-Factor Auth"
+    }
+  },
+  {
+    "input": "A Jenkins pipeline was set up to automate code testing and deployment across all staging environments.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "DevOps",
+      "l3": "CI/CD",
+      "l4": "Jenkins Pipeline"
+    }
+  },
+  {
+    "input": "The organization adopted GitHub Actions for continuous integration and streamlined code checks.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "DevOps",
+      "l3": "Automation",
+      "l4": "GitHub Actions"
+    }
+  },
+  {
+    "input": "All internal communication was moved to Slack with dedicated channels for each project team.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Productivity",
+      "l3": "Collaboration Tools",
+      "l4": "Slack Channels"
+    }
+  },
+  {
+    "input": "The backend engineers implemented Redis caching to reduce database query load on high-traffic endpoints.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Development",
+      "l3": "Performance Optimization",
+      "l4": "Redis Caching"
+    }
+  },
+  {
+    "input": "The IT team created a sandbox environment for developers to test experimental features safely.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Infrastructure",
+      "l3": "Environment Setup",
+      "l4": "Developer Sandbox"
+    }
+  },
+  {
+    "input": "Salesforce was customized with new objects to support the marketing campaign tracking workflow.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "CRM",
+      "l3": "Platform Customization",
+      "l4": "Salesforce Enhancements"
+    }
+  },
+  {
+    "input": "To manage infrastructure secrets, the DevOps team integrated HashiCorp Vault into CI/CD pipelines.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Secrets Management",
+      "l4": "HashiCorp Vault"
+    }
+  },
+  {
+    "input": "The ML team fine-tuned a BERT model for text classification on support ticket prioritization.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "AI & ML",
+      "l3": "Natural Language Processing",
+      "l4": "BERT Fine-tuning"
+    }
+  },
+  {
+    "input": "Terraform was used to provision AWS infrastructure in a reproducible and version-controlled manner.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Infrastructure as Code",
+      "l4": "Terraform Scripts"
+    }
+  },
+  {
+    "input": "The IT support team implemented TeamViewer for secure remote desktop access during troubleshooting.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Support Tools",
+      "l3": "Remote Access",
+      "l4": "TeamViewer"
+    }
+  },
+  {
+    "input": "GitLab runners were added to support distributed builds for various programming environments.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "DevOps",
+      "l3": "Build Systems",
+      "l4": "GitLab Runners"
+    }
+  },
+  {
+    "input": "The QA team set up BrowserStack for cross-browser testing of web interfaces on real devices.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Quality Assurance",
+      "l3": "Testing Tools",
+      "l4": "BrowserStack"
+    }
+  },
+  {
+    "input": "The UI team implemented responsive web design using Tailwind CSS for better mobile performance.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Frontend",
+      "l3": "CSS Frameworks",
+      "l4": "Tailwind"
+    }
+  },
+  {
+    "input": "ElasticSearch was deployed for fast full-text search across knowledge base articles.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Data Engineering",
+      "l3": "Search Systems",
+      "l4": "ElasticSearch"
+    }
+  },
+  {
+    "input": "Jupyter notebooks were used by the data science team to perform exploratory data analysis.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Data Science",
+      "l3": "Analysis Tools",
+      "l4": "Jupyter"
+    }
+  },
+  {
+    "input": "Kibana dashboards were created to monitor system metrics and logs from production services.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Monitoring",
+      "l3": "Observability",
+      "l4": "Kibana"
+    }
+  },
+  {
+    "input": "The tech team integrated Stripe API for secure handling of online payments and subscription billing.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "APIs",
+      "l3": "Payment Integration",
+      "l4": "Stripe"
+    }
+  },
+  {
+    "input": "Webhooks were configured to notify Slack channels when GitHub pull requests were merged.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Automation",
+      "l3": "Event Triggers",
+      "l4": "GitHub Webhooks"
+    }
+  },
+  {
+    "input": "The engineering team migrated all legacy services from on-premise servers to AWS Lambda for scalability.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Serverless",
+      "l4": "AWS Lambda Migration"
+    }
+  },
+  {
+    "input": "An internal chatbot was developed using Microsoft Bot Framework to automate IT support FAQs.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "AI & ML",
+      "l3": "Conversational AI",
+      "l4": "Internal Chatbot"
+    }
+  },
+  {
+    "input": "A virtual machine template was created in Azure to standardize developer environments across teams.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Infrastructure",
+      "l3": "Environment Setup",
+      "l4": "Azure VM Template"
+    }
+  },
+  {
+    "input": "The cybersecurity team conducted a simulated phishing campaign to raise employee awareness.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Awareness Training",
+      "l4": "Phishing Simulation"
+    }
+  },
+  {
+    "input": "A REST API was designed to enable external vendors to access real-time product inventory data.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "APIs",
+      "l3": "Integration",
+      "l4": "Inventory Access API"
+    }
+  },
+  {
+    "input": "Docker Compose was used to spin up local development environments for microservices testing.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "DevOps",
+      "l3": "Containerization",
+      "l4": "Docker Compose"
+    }
+  },
+  {
+    "input": "The frontend team implemented lazy loading to optimize the initial page load time.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Frontend",
+      "l3": "Performance Optimization",
+      "l4": "Lazy Loading"
+    }
+  },
+  {
+    "input": "Selenium tests were written to automate regression testing of the user login flow.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Quality Assurance",
+      "l3": "Test Automation",
+      "l4": "Selenium Scripts"
+    }
+  },
+  {
+    "input": "Google Cloud Pub/Sub was implemented for event-driven architecture between backend services.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Architecture",
+      "l3": "Messaging Systems",
+      "l4": "Pub/Sub Events"
+    }
+  },
+  {
+    "input": "The security team enforced SSO via Okta to unify login across all enterprise tools.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Security",
+      "l3": "Access Management",
+      "l4": "SSO via Okta"
+    }
+  },
+  {
+    "input": "Power BI dashboards were embedded into internal portals for real-time operational insights.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Data Analytics",
+      "l3": "BI Reporting",
+      "l4": "Power BI Embed"
+    }
+  },
+  {
+    "input": "Grafana was connected to Prometheus metrics to monitor system uptime and latency.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Monitoring",
+      "l3": "System Metrics",
+      "l4": "Grafana Dashboards"
+    }
+  },
+  {
+    "input": "The backend team adopted PostgreSQL over MySQL to leverage advanced indexing and constraints.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Database",
+      "l3": "Relational Databases",
+      "l4": "PostgreSQL Migration"
+    }
+  },
+  {
+    "input": "A Vue 3 upgrade was completed to utilize Composition API for better component logic organization.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Frontend",
+      "l3": "Framework Migration",
+      "l4": "Vue 3 Upgrade"
+    }
+  },
+  {
+    "input": "Kubernetes RBAC policies were applied to restrict access for non-production environments.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Access Control",
+      "l4": "K8s RBAC"
+    }
+  },
+  {
+    "input": "Anomaly detection was introduced in financial transactions using unsupervised ML models.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "AI & ML",
+      "l3": "Anomaly Detection",
+      "l4": "Unsupervised Models"
+    }
+  },
+  {
+    "input": "A static code analysis pipeline was created with SonarQube for security and code quality.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Quality Assurance",
+      "l3": "Code Review",
+      "l4": "SonarQube"
+    }
+  },
+  {
+    "input": "The QA team tested web accessibility using Lighthouse and Axe tools for WCAG compliance.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Quality Assurance",
+      "l3": "Accessibility Testing",
+      "l4": "Lighthouse Audit"
+    }
+  },
+  {
+    "input": "Firebase was used to quickly prototype real-time chat features in the new mobile app.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Mobile Development",
+      "l3": "Real-Time Communication",
+      "l4": "Firebase Chat"
+    }
+  },
+  {
+    "input": "An S3 bucket was configured with lifecycle policies to auto-archive infrequently accessed logs.",
+    "output": {
+      "l1": "IT & Software",
+      "l2": "Cloud Services",
+      "l3": "Storage Management",
+      "l4": "S3 Lifecycle Rules"
+    }
+  },
+  {
+    "input": "A cybersecurity firm was engaged to perform a penetration test and identify network vulnerabilities in the corporate infrastructure.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Security",
+      "l3": "Penetration Testing",
+      "l4": "Network Assessment"
+    }
+  },
+  {
+    "input": "An architectural consultancy was brought in to propose a sustainable redesign of the upcoming corporate campus in Pune.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Architecture",
+      "l3": "Green Design",
+      "l4": "Sustainable Campus"
+    }
+  },
+  {
+    "input": "A DEI consultant hosted workshops on inclusive hiring practices for HR and hiring managers across the company.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Human Resources",
+      "l3": "DEI Consulting",
+      "l4": "Inclusive Hiring Workshop"
+    }
+  },
+  {
+    "input": "A patent attorney was hired to secure intellectual property rights for a newly developed machine learning model.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "IP Services",
+      "l4": "ML Patent Filing"
+    }
+  },
+  {
+    "input": "An external project management consultant was contracted to optimize workflows across R&D and product delivery.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Project Management",
+      "l4": "Workflow Optimization"
+    }
+  },
+  {
+    "input": "A freelance content strategist was hired to revamp the website's messaging and improve SEO performance.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Content Strategy",
+      "l4": "SEO Revamp"
+    }
+  },
+  {
+    "input": "A vendor was contracted to conduct ISO 27001 compliance training for the compliance and engineering teams.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Compliance Programs",
+      "l4": "ISO 27001 Workshop"
+    }
+  },
+  {
+    "input": "A video production agency created explainer videos to support a new customer onboarding process.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Creative",
+      "l3": "Multimedia",
+      "l4": "Onboarding Videos"
+    }
+  },
+  {
+    "input": "A Big 4 accounting firm provided quarterly tax advisory services to ensure global compliance for cross-border operations.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Tax Advisory",
+      "l4": "Cross-Border Compliance"
+    }
+  },
+  {
+    "input": "The board engaged a leadership coach to provide one-on-one mentoring for senior executives.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Leadership Development",
+      "l3": "Executive Coaching",
+      "l4": "Mentorship Program"
+    }
+  },
+  {
+    "input": "An external recruiter was retained to help source and vet senior candidates for an open CTO position.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Recruitment",
+      "l3": "Executive Search",
+      "l4": "CTO Hiring"
+    }
+  },
+  {
+    "input": "A cloud cost optimization consultant helped the DevOps team reduce AWS bills through workload right-sizing.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Consulting",
+      "l3": "Cost Optimization",
+      "l4": "Cloud Audit"
+    }
+  },
+  {
+    "input": "A diversity and inclusion speaker was invited to host a company-wide virtual keynote during Women's History Month.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Events",
+      "l3": "Corporate Speaking",
+      "l4": "Women's History Keynote"
+    }
+  },
+  {
+    "input": "A procurement expert was engaged to streamline supplier evaluation and improve vendor contract negotiation strategies.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Operations",
+      "l3": "Procurement Advisory",
+      "l4": "Vendor Strategy"
+    }
+  },
+  {
+    "input": "A law firm was engaged to support merger negotiations and draft compliance documentation.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "M&A",
+      "l4": "Merger Support"
+    }
+  },
+  {
+    "input": "A customer support strategy agency was contracted to audit and redesign the helpdesk workflow and tools.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Customer Success",
+      "l3": "Support Consulting",
+      "l4": "Helpdesk Optimization"
+    }
+  },
+  {
+    "input": "The organization hired a third-party vendor to deliver soft-skills training for all new management hires.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Soft Skills",
+      "l4": "Manager Onboarding"
+    }
+  },
+  {
+    "input": "A sustainability analyst was contracted to evaluate carbon emissions and prepare a net-zero action plan.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Sustainability",
+      "l3": "Environmental Advisory",
+      "l4": "Carbon Footprint Report"
+    }
+  },
+  {
+    "input": "A public relations firm handled crisis communications and media relations during a reputational incident.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Communications",
+      "l3": "PR Strategy",
+      "l4": "Crisis Management"
+    }
+  },
+  {
+    "input": "A tech analyst agency provided a market research report to support strategic investment decisions in AI startups.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Research",
+      "l3": "Market Analysis",
+      "l4": "AI Investment Study"
+    }
+  },
+  {
+    "input": "A software consulting firm was brought in to audit the enterprise application architecture and suggest modernization strategies.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Consulting",
+      "l3": "Architecture Audit",
+      "l4": "Legacy Modernization"
+    }
+  },
+  {
+    "input": "A professional translator was hired to localize the product manuals and software UI for the Japanese market.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Translation",
+      "l3": "Localization",
+      "l4": "Japanese Market Entry"
+    }
+  },
+  {
+    "input": "An ethics consultant conducted a thorough review of the organization's compliance with whistleblower protection policies.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Ethics & Compliance",
+      "l4": "Whistleblower Audit"
+    }
+  },
+  {
+    "input": "An industry analyst was hired to forecast demand trends for smart manufacturing in Asia-Pacific.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Research",
+      "l3": "Industry Analysis",
+      "l4": "Smart Manufacturing Forecast"
+    }
+  },
+  {
+    "input": "A web accessibility consultant performed audits and recommended WCAG compliance fixes across the company's websites.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Accessibility Review",
+      "l4": "WCAG Compliance"
+    }
+  },
+  {
+    "input": "The board engaged an external evaluator to conduct a performance review of senior leadership for succession planning.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Human Resources",
+      "l3": "Leadership Assessment",
+      "l4": "Succession Review"
+    }
+  },
+  {
+    "input": "A litigation support vendor provided digital forensics and e-discovery services during an IP dispute.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal Tech",
+      "l3": "E-Discovery",
+      "l4": "IP Forensics"
+    }
+  },
+  {
+    "input": "A behavioral psychologist facilitated conflict resolution workshops between business and engineering teams.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Organizational Development",
+      "l3": "Conflict Resolution",
+      "l4": "Interdepartmental Mediation"
+    }
+  },
+  {
+    "input": "An AI ethics advisory panel was formed with external experts to guide responsible implementation practices.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Technology Advisory",
+      "l3": "Ethical AI",
+      "l4": "Governance Panel"
+    }
+  },
+  {
+    "input": "A public accounting firm was contracted to perform forensic accounting related to vendor billing anomalies.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Forensic Accounting",
+      "l4": "Billing Audit"
+    }
+  },
+  {
+    "input": "A crisis strategy firm provided rapid communications support during a major product recall incident.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Communications",
+      "l3": "Crisis Strategy",
+      "l4": "Recall Response"
+    }
+  },
+  {
+    "input": "A professional handwriting analyst was hired by the legal team in a fraud investigation case.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Forensic Services",
+      "l4": "Handwriting Analysis"
+    }
+  },
+  {
+    "input": "A remote team engagement consultant helped restructure virtual collaboration processes for distributed teams.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "Remote Work Strategy",
+      "l4": "Team Collaboration"
+    }
+  },
+  {
+    "input": "A workplace safety advisor conducted fire and hazard drills to meet quarterly compliance standards.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Operations",
+      "l3": "Safety Compliance",
+      "l4": "Fire Drill Training"
+    }
+  },
+  {
+    "input": "A freelance graphic designer was hired to develop creative assets for the annual product launch campaign.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Visual Design",
+      "l4": "Launch Creative"
+    }
+  },
+  {
+    "input": "An external trainer was brought in to upskill engineers on secure coding practices for cloud environments.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Technical Training",
+      "l4": "Secure Coding"
+    }
+  },
+  {
+    "input": "A branding consultant developed a refreshed corporate identity system to align with global expansion.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Brand Strategy",
+      "l4": "Rebranding Project"
+    }
+  },
+  {
+    "input": "A government relations firm advised the executive team on regulatory changes affecting tech exports.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Policy Consulting",
+      "l3": "Regulatory Advisory",
+      "l4": "Export Regulations"
+    }
+  },
+  {
+    "input": "A team of data consultants developed dashboards for executive reporting using Power BI and Tableau.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Data & Analytics",
+      "l3": "Dashboarding",
+      "l4": "Executive Reports"
+    }
+  },
+  {
+    "input": "A fundraising consultant worked with the nonprofit division to improve donor outreach and grant success rates.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Development",
+      "l3": "Fundraising Strategy",
+      "l4": "Donor Engagement"
+    }
+  },
+  {
+    "input": "A vendor was engaged to facilitate cultural sensitivity training for customer support teams serving global clients.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Cultural Awareness",
+      "l4": "Global Support Enablement"
+    }
+  },
+  {
+    "input": "A patent attorney provided legal opinions and filing services for three new technology innovations.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Intellectual Property",
+      "l4": "Patent Filing"
+    }
+  },
+  {
+    "input": "The company hired a DEI consultant to design inclusive hiring policies and conduct unconscious bias workshops.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "Diversity & Inclusion",
+      "l4": "Bias Awareness"
+    }
+  },
+  {
+    "input": "A social media strategist was brought in to revamp the brand's digital voice across platforms.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Digital Strategy",
+      "l4": "Social Presence"
+    }
+  },
+  {
+    "input": "An outsourced vendor managed transcription and subtitling for internal training videos in five languages.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Translation",
+      "l3": "Multilingual Services",
+      "l4": "Video Subtitling"
+    }
+  },
+  {
+    "input": "A workplace ergonomics expert evaluated the lab setup and suggested posture-improving interventions.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Health & Safety",
+      "l3": "Ergonomics",
+      "l4": "Lab Setup Audit"
+    }
+  },
+  {
+    "input": "A team of external developers assisted in migrating on-premises databases to a hybrid cloud environment.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "Cloud Migration",
+      "l4": "Hybrid Deployment"
+    }
+  },
+  {
+    "input": "A storytelling coach was hired to train executives on presentation delivery and narrative techniques.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Executive Coaching",
+      "l4": "Storytelling for Leadership"
+    }
+  },
+  {
+    "input": "A professional photographer captured high-resolution product images for the e-commerce website revamp.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Photography",
+      "l4": "E-Commerce Catalog"
+    }
+  },
+  {
+    "input": "A cost consultancy firm benchmarked real estate spending against regional industry standards.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Cost Optimization",
+      "l4": "Real Estate Benchmarking"
+    }
+  },
+  {
+    "input": "An M&A advisory group led the valuation and due diligence of a potential acquisition in the retail sector.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Mergers & Acquisitions",
+      "l4": "Retail Valuation"
+    }
+  },
+  {
+    "input": "A visual identity expert refined the product packaging design for consistency across SKUs.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Packaging Design",
+      "l4": "SKU Alignment"
+    }
+  },
+  {
+    "input": "A remote facilitation specialist helped improve engagement in virtual leadership summits.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Organizational Development",
+      "l3": "Virtual Engagement",
+      "l4": "Leadership Summits"
+    }
+  },
+  {
+    "input": "The sustainability division engaged a climate policy advisor to assess the company’s carbon reduction roadmap.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Policy Consulting",
+      "l3": "Sustainability",
+      "l4": "Carbon Roadmap Review"
+    }
+  },
+  {
+    "input": "An independent HR auditor evaluated compliance with wage laws across APAC subsidiaries.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "Labor Law Compliance",
+      "l4": "Wage Audit"
+    }
+  },
+  {
+    "input": "A data privacy consultancy assisted in updating cookie consent banners to meet global compliance standards.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal Tech",
+      "l3": "Data Privacy",
+      "l4": "Cookie Compliance"
+    }
+  },
+  {
+    "input": "A videography agency was contracted to produce promotional clips for the annual company conference.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Video Production",
+      "l4": "Conference Highlights"
+    }
+  },
+  {
+    "input": "An external trainer conducted workshops on generative AI tools for content creators.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "AI Tools",
+      "l4": "Generative Workshop"
+    }
+  },
+  {
+    "input": "A cybersecurity consulting partner reviewed threat detection protocols and updated incident response plans.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Consulting",
+      "l3": "Cybersecurity",
+      "l4": "Incident Response Upgrade"
+    }
+  },
+  {
+    "input": "An executive search firm was contracted to help fill key leadership roles in new international offices.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Recruitment",
+      "l3": "Leadership Hiring",
+      "l4": "Global Executive Search"
+    }
+  },
+  {
+    "input": "A freelance policy researcher was hired to analyze upcoming regulatory shifts in the renewable energy sector.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Research",
+      "l3": "Policy Analysis",
+      "l4": "Energy Regulations"
+    }
+  },
+  {
+    "input": "A third-party team conducted a competitor benchmarking study for our SaaS product.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Market Research",
+      "l3": "Competitive Intelligence",
+      "l4": "SaaS Benchmarking"
+    }
+  },
+  {
+    "input": "A tax consultant supported the team in resolving cross-border VAT compliance queries.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Tax Consulting",
+      "l4": "VAT Advisory"
+    }
+  },
+  {
+    "input": "A usability expert performed heuristic evaluations for the client onboarding web portal.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "UX Evaluation",
+      "l4": "Onboarding Portal"
+    }
+  },
+  {
+    "input": "An outsourced learning partner developed bite-sized courses for internal knowledge sharing.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Content Development",
+      "l4": "Microlearning Modules"
+    }
+  },
+  {
+    "input": "A project management firm helped standardize delivery processes for cross-functional initiatives.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Project Delivery",
+      "l4": "Process Standardization"
+    }
+  },
+  {
+    "input": "A risk analysis consultancy provided third-party validation of the disaster recovery plan.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Consulting",
+      "l3": "Business Continuity",
+      "l4": "DRP Audit"
+    }
+  },
+  {
+    "input": "A legal process outsourcing (LPO) firm handled the contract review backlog for global deals.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Contract Management",
+      "l4": "Global Deal Review"
+    }
+  },
+  {
+    "input": "An onboarding consultancy developed persona-based orientation kits for new hires.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "Employee Experience",
+      "l4": "Onboarding Kits"
+    }
+  },
+  {
+    "input": "An external IT auditor validated user access rights across critical systems.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Audit Services",
+      "l3": "IT Controls",
+      "l4": "Access Validation"
+    }
+  },
+  {
+    "input": "A podcast producer created a branded leadership series featuring senior executives.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Content Production",
+      "l4": "Leadership Podcast"
+    }
+  },
+  {
+    "input": "A software procurement advisor negotiated pricing terms for enterprise SaaS renewals.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "Procurement Support",
+      "l4": "SaaS Licensing"
+    }
+  },
+  {
+    "input": "A language services agency provided real-time interpretation during the annual global summit.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Translation",
+      "l3": "Live Interpretation",
+      "l4": "Global Summit"
+    }
+  },
+  {
+    "input": "An analytics agency conducted A/B testing and conversion funnel optimization for the marketing website.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Analytics",
+      "l4": "Conversion Optimization"
+    }
+  },
+  {
+    "input": "A vendor was hired to localize product documentation for non-English-speaking markets.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Translation",
+      "l3": "Localization",
+      "l4": "Product Docs"
+    }
+  },
+  {
+    "input": "A behavioral economics expert advised the design team on cognitive biases impacting UI decisions.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Behavioral Science",
+      "l4": "UX Decision Framing"
+    }
+  },
+  {
+    "input": "A freelance illustrator designed custom icons and visuals for the internal HR handbook.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Illustration",
+      "l4": "HR Handbook"
+    }
+  },
+  {
+    "input": "A quality assurance firm conducted peer code review as part of the compliance checklist.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "Code Review",
+      "l4": "QA Audit"
+    }
+  },
+  {
+    "input": "A management consultant developed a decision framework for evaluating new business lines.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Strategy",
+      "l4": "Opportunity Assessment"
+    }
+  },
+  {
+    "input": "A public relations agency handled crisis communication strategy during a product recall.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Public Relations",
+      "l4": "Crisis Response"
+    }
+  },
+  {
+    "input": "A cybersecurity consultancy was brought in to run a phishing simulation and awareness campaign for employees.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "Cybersecurity",
+      "l4": "Phishing Simulation"
+    }
+  },
+  {
+    "input": "A video production team developed training materials using motion graphics for internal compliance programs.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Media Production",
+      "l4": "Compliance Videos"
+    }
+  },
+  {
+    "input": "A cloud migration expert was contracted to assess readiness and risk for infrastructure modernization.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Consulting",
+      "l3": "Cloud Strategy",
+      "l4": "Infrastructure Readiness"
+    }
+  },
+  {
+    "input": "An HR tech advisory group supported selection and implementation of a new performance review platform.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "Technology Advisory",
+      "l4": "Performance Platform"
+    }
+  },
+  {
+    "input": "A workplace ergonomics firm conducted assessments and adjustments for remote employee home setups.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Health & Safety",
+      "l3": "Ergonomic Services",
+      "l4": "Remote Work Assessment"
+    }
+  },
+  {
+    "input": "A diversity consultant facilitated bias training workshops for senior leadership.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "DEI Initiatives",
+      "l4": "Bias Training"
+    }
+  },
+  {
+    "input": "An AI-focused firm was engaged to develop proof-of-concept models for customer service automation.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "Artificial Intelligence",
+      "l4": "Chatbot PoC"
+    }
+  },
+  {
+    "input": "An international law firm reviewed data transfer clauses in response to cross-border compliance concerns.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Data Protection",
+      "l4": "Cross-Border Compliance"
+    }
+  },
+  {
+    "input": "A customer experience (CX) agency conducted in-depth interviews to map client pain points and satisfaction drivers.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Customer Research",
+      "l4": "CX Mapping"
+    }
+  },
+  {
+    "input": "An outsourced finance firm managed quarterly cash flow forecasts for the CFO’s office.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Financial Planning",
+      "l4": "Cash Flow Forecast"
+    }
+  },
+  {
+    "input": "A writing consultancy rewrote technical documentation for clarity and international audiences.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Content Services",
+      "l3": "Technical Writing",
+      "l4": "Documentation Rewrite"
+    }
+  },
+  {
+    "input": "A branding agency was contracted to refresh the corporate identity and visual system.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Branding",
+      "l4": "Identity Refresh"
+    }
+  },
+  {
+    "input": "An NGO advisory firm helped design a social impact strategy and community outreach plan.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "CSR Advisory",
+      "l4": "Impact Planning"
+    }
+  },
+  {
+    "input": "A recruiting partner launched a university hiring campaign for engineering graduates.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Recruitment",
+      "l3": "Campus Hiring",
+      "l4": "University Outreach"
+    }
+  },
+  {
+    "input": "A video editing team produced a corporate anniversary film featuring milestones and testimonials.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Media Production",
+      "l3": "Video Editing",
+      "l4": "Anniversary Video"
+    }
+  },
+  {
+    "input": "A compensation consultant was hired to design a performance-based variable pay structure.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "Compensation Design",
+      "l4": "Variable Pay"
+    }
+  },
+  {
+    "input": "A training vendor developed gamified compliance learning modules for regional teams.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "eLearning Development",
+      "l4": "Gamified Modules"
+    }
+  },
+  {
+    "input": "A freelance data journalist built visual dashboards for internal publication in quarterly reports.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Analytics",
+      "l3": "Data Visualization",
+      "l4": "Quarterly Dashboards"
+    }
+  },
+  {
+    "input": "A voiceover artist was contracted to localize internal training videos into multiple languages.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Translation",
+      "l3": "Voiceover Services",
+      "l4": "Training Localization"
+    }
+  },
+  {
+    "input": "A workshop facilitator led sessions on agile mindset and rituals for product teams.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Agile Coaching",
+      "l4": "Team Workshops"
+    }
+  },
+  {
+    "input": "A litigation support service was hired to organize legal discovery documents and depositions.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Litigation Support",
+      "l4": "Discovery Management"
+    }
+  },
+  {
+    "input": "A tax advisory firm assisted with international tax structuring for expanding operations in Asia-Pacific.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Tax Consulting",
+      "l4": "APAC Structuring"
+    }
+  },
+  {
+    "input": "A policy research agency was contracted to provide insights on proposed government regulations.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Regulatory Analysis",
+      "l4": "Policy Research"
+    }
+  },
+  {
+    "input": "A CRM consultancy customized a Salesforce implementation to suit the company’s lead management flow.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Consulting",
+      "l3": "CRM Solutions",
+      "l4": "Salesforce Customization"
+    }
+  },
+  {
+    "input": "An architectural planning firm helped redesign the floor plan of the corporate headquarters.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Architectural Design",
+      "l4": "Office Layout"
+    }
+  },
+  {
+    "input": "An AI research firm evaluated bias in the recommendation engine algorithms used by the company.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "AI Ethics",
+      "l4": "Bias Audit"
+    }
+  },
+  {
+    "input": "A public relations agency coordinated crisis communication efforts during a product recall event.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "PR Strategy",
+      "l4": "Crisis Communications"
+    }
+  },
+  {
+    "input": "A team of external auditors reviewed compliance with procurement and sourcing policies.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Procurement Audit",
+      "l4": "Sourcing Compliance"
+    }
+  },
+  {
+    "input": "A graphic design studio created custom illustrations for the annual sustainability report.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Graphic Design",
+      "l4": "Sustainability Report"
+    }
+  },
+  {
+    "input": "A localization expert translated marketing content into six regional languages for South America.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Translation",
+      "l3": "Localization",
+      "l4": "South America Rollout"
+    }
+  },
+  {
+    "input": "An organizational psychologist conducted assessments for leadership potential in middle management.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "Leadership Assessment",
+      "l4": "Psychometric Testing"
+    }
+  },
+  {
+    "input": "A social media consultant overhauled the digital engagement strategy for the brand's online channels.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Social Strategy",
+      "l4": "Digital Engagement"
+    }
+  },
+  {
+    "input": "A technical SEO audit was conducted by a third-party expert to boost organic web traffic.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "SEO Consulting",
+      "l4": "Technical Audit"
+    }
+  },
+  {
+    "input": "An equity valuation consultant appraised the company's shares before a private funding round.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Valuation Services",
+      "l4": "Equity Appraisal"
+    }
+  },
+  {
+    "input": "A knowledge management expert created a centralized wiki system for internal documentation.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Consulting",
+      "l3": "Knowledge Systems",
+      "l4": "Internal Wiki"
+    }
+  },
+  {
+    "input": "A negotiation strategist coached the sales team on complex enterprise deal-making tactics.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Sales Enablement",
+      "l4": "Negotiation Coaching"
+    }
+  },
+  {
+    "input": "A documentation expert rewrote internal SOPs for improved clarity and regulatory alignment.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Content Services",
+      "l3": "Policy Documentation",
+      "l4": "SOP Revision"
+    }
+  },
+  {
+    "input": "A sustainability consulting firm advised the leadership on achieving net zero emission targets.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Sustainability Strategy",
+      "l4": "Net Zero Planning"
+    }
+  },
+  {
+    "input": "A corporate event planner coordinated a multi-day leadership summit for global directors.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Event Management",
+      "l3": "Corporate Events",
+      "l4": "Leadership Summit"
+    }
+  },
+  {
+    "input": "A labor law firm was retained to guide union negotiations and resolve workplace grievances.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Labor Relations",
+      "l4": "Union Negotiation"
+    }
+  },
+  {
+    "input": "A cybersecurity firm was contracted to conduct a penetration test and identify vulnerabilities in our systems.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "Cybersecurity",
+      "l4": "Penetration Testing"
+    }
+  },
+  {
+    "input": "An industrial design firm redesigned the product packaging to enhance visual appeal and reduce waste.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Industrial Design",
+      "l4": "Eco-Friendly Packaging"
+    }
+  },
+  {
+    "input": "An accounting consultancy was brought in to migrate our financial systems to a cloud-based platform.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Finance",
+      "l3": "Accounting Systems",
+      "l4": "Cloud Migration"
+    }
+  },
+  {
+    "input": "A DEI consulting firm conducted a company-wide inclusivity audit and led cultural sensitivity workshops.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "HR Consulting",
+      "l3": "Diversity & Inclusion",
+      "l4": "DEI Audit & Training"
+    }
+  },
+  {
+    "input": "A procurement specialist reviewed vendor contracts to improve negotiation outcomes and compliance.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Procurement",
+      "l4": "Vendor Contract Review"
+    }
+  },
+  {
+    "input": "A videography team was hired to produce a corporate promotional video and employee spotlight features.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Content Services",
+      "l3": "Video Production",
+      "l4": "Corporate Promo Video"
+    }
+  },
+  {
+    "input": "An outsourced training firm developed a customized onboarding program for new hires.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Onboarding Programs",
+      "l4": "Employee Induction"
+    }
+  },
+  {
+    "input": "A branding agency redefined the company's visual identity and created new brand guidelines.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Marketing",
+      "l3": "Branding",
+      "l4": "Visual Identity Refresh"
+    }
+  },
+  {
+    "input": "A legal tech startup provided contract automation tools to speed up legal documentation.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Legal Automation",
+      "l4": "Contract Generation"
+    }
+  },
+  {
+    "input": "A SaaS operations specialist was consulted to improve license management and reduce software costs.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Consulting",
+      "l3": "SaaS Optimization",
+      "l4": "License Management"
+    }
+  },
+  {
+    "input": "A motivational speaker was brought in to deliver a keynote session during the quarterly town hall.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "Employee Engagement",
+      "l4": "Keynote Session"
+    }
+  },
+  {
+    "input": "A data privacy expert helped the company update its cookie policies for global compliance.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Privacy Law",
+      "l4": "Cookie Policy Update"
+    }
+  },
+  {
+    "input": "A freelance copywriter developed landing page content optimized for SEO and conversions.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Content Services",
+      "l3": "Copywriting",
+      "l4": "SEO Landing Pages"
+    }
+  },
+  {
+    "input": "A sustainability researcher conducted a lifecycle analysis of our top products to identify improvement areas.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Sustainability",
+      "l4": "Product Lifecycle Analysis"
+    }
+  },
+  {
+    "input": "A mobile testing lab was engaged to evaluate cross-platform performance for our new app.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "IT Services",
+      "l3": "App Testing",
+      "l4": "Cross-Platform QA"
+    }
+  },
+  {
+    "input": "A freelance illustrator was hired to design custom graphics for the employee wellness campaign.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Design Services",
+      "l3": "Illustration",
+      "l4": "Wellness Campaign Art"
+    }
+  },
+  {
+    "input": "An event decor specialist was contracted to design and set up a theme-based annual gala night.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Event Management",
+      "l3": "Event Decor",
+      "l4": "Annual Gala Theme"
+    }
+  },
+  {
+    "input": "A negotiation mediator was engaged to resolve a conflict between executive board members.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Legal",
+      "l3": "Conflict Resolution",
+      "l4": "Board Mediation"
+    }
+  },
+  {
+    "input": "A strategic foresight consultant ran scenario planning workshops for future market disruptions.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Consulting",
+      "l3": "Foresight",
+      "l4": "Scenario Planning"
+    }
+  },
+  {
+    "input": "An e-learning company developed a compliance training module for all remote employees.",
+    "output": {
+      "l1": "Professional Services",
+      "l2": "Training",
+      "l3": "eLearning",
+      "l4": "Remote Compliance Training"
+    }
+  },
+  {
+    "input": "Marketing executives attended an influencer networking event in New York, including airfare and lodging for three nights.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Events",
+      "l4": "NYC Influencer Meetup"
+    }
+  },
+  {
+    "input": "Sales representatives expensed Uber rides for client site visits across downtown Chicago during the product rollout phase.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Local Travel",
+      "l3": "Transport",
+      "l4": "Chicago Rideshare"
+    }
+  },
+  {
+    "input": "A regional team leader hosted a farewell dinner for a retiring employee, including dinner and commemorative gifts.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Celebrations",
+      "l4": "Retirement Sendoff"
+    }
+  },
+  {
+    "input": "Finance department flew to Toronto for a financial compliance workshop with lodging, meals, and ground transport included.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Training",
+      "l4": "Toronto Compliance Workshop"
+    }
+  },
+  {
+    "input": "A quarterly team-building retreat was organized at a beach resort, with full accommodation and group activities.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Retreats",
+      "l4": "Quarterly Beach Offsite"
+    }
+  },
+  {
+    "input": "Executives flew business class to San Francisco for the annual investor summit and strategy session.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Investor Meetings",
+      "l4": "SF Investor Summit"
+    }
+  },
+  {
+    "input": "Employees submitted travel reimbursements for cross-city train journeys during a system integration rollout.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Local Travel",
+      "l3": "Reimbursements",
+      "l4": "Train Integration Visits"
+    }
+  },
+  {
+    "input": "A customer appreciation dinner was hosted at a luxury hotel to strengthen enterprise relationships.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Meals & Dining",
+      "l4": "Client Dinner Gala"
+    }
+  },
+  {
+    "input": "A conference booth sponsorship included travel and stay for marketing staff attending the Global Martech Expo.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Conferences",
+      "l4": "Martech Expo"
+    }
+  },
+  {
+    "input": "Remote team leads flew to headquarters for the biannual roadmap review and planning session.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Planning Meetings",
+      "l4": "Biannual HQ Meetup"
+    }
+  },
+  {
+    "input": "The company sponsored employee tickets to a local cultural fest to promote inclusivity and bonding.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Cultural Events",
+      "l4": "Community Fest Visit"
+    }
+  },
+  {
+    "input": "Managers expensed lunch meetings with potential partners during regional expansion scouting trips.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Networking",
+      "l4": "Partner Lunch Meet"
+    }
+  },
+  {
+    "input": "A video production team traveled to multiple store locations for on-site shoots, including travel and lodging.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Creative Projects",
+      "l4": "Store Shoot Tour"
+    }
+  },
+  {
+    "input": "Project leaders hosted a lunch-and-learn event at a local restaurant with department-wide attendance.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Training",
+      "l4": "Lunch & Learn Series"
+    }
+  },
+  {
+    "input": "Executive assistants submitted claims for premium airport lounge access during intercontinental travel.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Amenities",
+      "l4": "Airport Lounge Access"
+    }
+  },
+  {
+    "input": "Sales managers dined with enterprise clients during contract negotiations in Singapore.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Meals & Dining",
+      "l4": "Singapore Client Dinner"
+    }
+  },
+  {
+    "input": "Employees attended a personal development seminar hosted at a business resort retreat center.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Training",
+      "l4": "Leadership Retreat"
+    }
+  },
+  {
+    "input": "A technical support team visited on-site customer offices for product implementation and training support.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Customer Support",
+      "l4": "On-site Tech Visit"
+    }
+  },
+  {
+    "input": "The marketing department hosted a rooftop cocktail evening to celebrate a successful campaign launch.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Celebrations",
+      "l4": "Campaign Cocktail Night"
+    }
+  },
+  {
+    "input": "Regional managers were reimbursed for overnight stays during store audits and operations reviews.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Field Visits",
+      "l4": "Store Audit Travel"
+    }
+  },
+  {
+    "input": "The leadership team flew to London for the annual global strategic alignment meeting and executive dinner.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Executive Travel",
+      "l4": "London Strategy Meet"
+    }
+  },
+  {
+    "input": "A welcome lunch was hosted for new joiners in the Bangalore office to help them connect with teammates.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Onboarding",
+      "l4": "New Joiners Lunch"
+    }
+  },
+  {
+    "input": "Marketing leads were sent to the Cannes Lions Festival to network and study advertising innovations.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Conferences",
+      "l4": "Cannes Lions Visit"
+    }
+  },
+  {
+    "input": "The HR team organized an outdoor adventure trip for employee wellness and bonding.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Wellness Events",
+      "l4": "Adventure Offsite"
+    }
+  },
+  {
+    "input": "Clients were invited to a hospitality box at the cricket stadium during the T20 World Cup.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Hospitality",
+      "l4": "T20 Match Invite"
+    }
+  },
+  {
+    "input": "Employees expensed meals during overnight shifts in the data center for critical migration tasks.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Meals & Refreshments",
+      "l4": "Night Shift Catering"
+    }
+  },
+  {
+    "input": "Regional heads flew in for an internal brand strategy summit held at the corporate headquarters.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Internal Events",
+      "l4": "Brand Strategy Summit"
+    }
+  },
+  {
+    "input": "An offsite leadership workshop was conducted in a forest lodge focused on mindfulness and clarity.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Workshops",
+      "l4": "Mindfulness Retreat"
+    }
+  },
+  {
+    "input": "The field sales team rented vans for rural outreach campaigns in the southern region.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Local Travel",
+      "l3": "Campaigns",
+      "l4": "Outreach Van Rentals"
+    }
+  },
+  {
+    "input": "Company directors attended a gala dinner hosted by the industry association in Dubai.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Formal Dinners",
+      "l4": "Dubai Gala Night"
+    }
+  },
+  {
+    "input": "A cultural exchange tour was organized for employees to understand regional customer behavior better.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Learning Trips",
+      "l4": "Culture Exchange Tour"
+    }
+  },
+  {
+    "input": "Teams celebrated a major product release with a weekend team outing to a nature camp.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Celebrations",
+      "l4": "Product Launch Outing"
+    }
+  },
+  {
+    "input": "Customer success managers were reimbursed for train tickets for client onboarding visits.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Client Visits",
+      "l4": "Onboarding Train Travel"
+    }
+  },
+  {
+    "input": "The events team organized a rooftop dinner for new clients after product demonstrations.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Dining",
+      "l4": "Product Demo Dinner"
+    }
+  },
+  {
+    "input": "Finance employees attended a tax workshop in another city, with full travel and hotel expenses.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Training",
+      "l4": "Tax Workshop Visit"
+    }
+  },
+  {
+    "input": "An appreciation brunch was arranged for top-performing interns at a local cafe.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Recognition",
+      "l4": "Intern Brunch"
+    }
+  },
+  {
+    "input": "Rideshare costs for employee shuttles during late-night product deployments were reimbursed.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Local Travel",
+      "l3": "Transport",
+      "l4": "Deployment Shuttle"
+    }
+  },
+  {
+    "input": "The leadership team visited partner offices abroad to finalize partnership agreements.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Partnerships",
+      "l4": "Partner Office Visit"
+    }
+  },
+  {
+    "input": "Food vouchers were distributed for remote employees to celebrate the holiday season.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Festive Celebrations",
+      "l4": "Remote Holiday Perks"
+    }
+  },
+  {
+    "input": "The client success team hosted a breakfast workshop for early-stage SaaS clients.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Workshops",
+      "l4": "SaaS Breakfast Session"
+    }
+  },
+  {
+    "input": "The sales director traveled to Tokyo to negotiate a multi-year distribution agreement with a regional partner.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Negotiations",
+      "l4": "Tokyo Deal Visit"
+    }
+  },
+  {
+    "input": "Employees received dinner reimbursements while working extended hours during quarterly reporting.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Meals & Refreshments",
+      "l4": "Overtime Dinner"
+    }
+  },
+  {
+    "input": "The marketing team organized a launch party in a rooftop venue with key influencers and stakeholders.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Product Launches",
+      "l4": "Rooftop Launch Event"
+    }
+  },
+  {
+    "input": "The leadership team held a strategic planning retreat at a lakeside resort in the countryside.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Retreats",
+      "l4": "Lakeside Strategy Offsite"
+    }
+  },
+  {
+    "input": "Transportation was arranged for keynote speakers attending the annual developer conference.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Events",
+      "l4": "Speaker Transport"
+    }
+  },
+  {
+    "input": "The company hosted an appreciation dinner for its top 20 customers at a five-star hotel.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Recognition",
+      "l4": "Top Client Dinner"
+    }
+  },
+  {
+    "input": "Flight and lodging were arranged for product leads attending the AI and Robotics expo.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Exhibitions",
+      "l4": "AI Expo Attendance"
+    }
+  },
+  {
+    "input": "Remote teams were flown in for a company-wide town hall meeting and evening networking session.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Town Hall",
+      "l4": "Remote Team Visit"
+    }
+  },
+  {
+    "input": "Client lunch meetings were arranged to discuss renewal options for key enterprise accounts.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Business Meals",
+      "l4": "Renewal Lunch Meet"
+    }
+  },
+  {
+    "input": "The support team expensed transport costs for attending a disaster recovery training session.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Training",
+      "l4": "Disaster Recovery Training"
+    }
+  },
+  {
+    "input": "The R&D team went on a weekend innovation camp in the hills to brainstorm product ideas.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Innovation",
+      "l4": "Hill Innovation Camp"
+    }
+  },
+  {
+    "input": "Company-sponsored taxi rides were provided during late-night hackathon sessions.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Local Travel",
+      "l3": "Hackathon Support",
+      "l4": "Hackathon Taxi Service"
+    }
+  },
+  {
+    "input": "Employees attending a leadership summit were provided daily meal stipends.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Leadership Events",
+      "l4": "Summit Meal Stipends"
+    }
+  },
+  {
+    "input": "The company held a regional meet-up for distributed teams at a beachside venue in Goa.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Regional Events",
+      "l4": "Goa Meet-up"
+    }
+  },
+  {
+    "input": "Clients were flown in and hosted for an exclusive investor demo day.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Investor Relations",
+      "l4": "Investor Demo Travel"
+    }
+  },
+  {
+    "input": "The team was taken on a surprise dinner cruise to celebrate successful project delivery.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Celebrations",
+      "l4": "Dinner Cruise Party"
+    }
+  },
+  {
+    "input": "A breakfast networking session was held in a city café for B2B partners.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Networking",
+      "l4": "Partner Café Session"
+    }
+  },
+  {
+    "input": "Travel allowances were granted to engineers sent onsite for product installations.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Onsite Services",
+      "l4": "Installation Travel"
+    }
+  },
+  {
+    "input": "Local amusement park tickets were gifted to the team during annual day festivities.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Rewards",
+      "l4": "Festive Day Outing"
+    }
+  },
+  {
+    "input": "The legal team held a workshop and dinner event with law firm partners in a private club.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Workshops",
+      "l4": "Legal Partner Dinner"
+    }
+  },
+  {
+    "input": "Key clients were invited to a wine-tasting event organized by the business development team.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Hospitality",
+      "l4": "Wine Tasting Invite"
+    }
+  },
+  {
+    "input": "The new joiners attended a two-day onboarding trip with sightseeing and team bonding activities.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Onboarding",
+      "l4": "New Joiner Trip"
+    }
+  },
+  {
+    "input": "Executives traveled to Zurich for merger discussions and business development meetings.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Corporate Expansion",
+      "l4": "Zurich M&A Travel"
+    }
+  },
+  {
+    "input": "The product marketing team organized a client-facing product showcase dinner in Singapore.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Product Showcase",
+      "l4": "Singapore Dinner Event"
+    }
+  },
+  {
+    "input": "A cultural day trip was organized for the visiting international interns to explore the city.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Intern Programs",
+      "l4": "City Tour for Interns"
+    }
+  },
+  {
+    "input": "Sales reps received travel allowances for covering rural territories during a new campaign launch.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Sales Campaign",
+      "l4": "Rural Travel Support"
+    }
+  },
+  {
+    "input": "Local cab expenses were reimbursed for late-night shifts during year-end closing activities.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Local Travel",
+      "l3": "Work Support",
+      "l4": "Year-End Cab Reimbursements"
+    }
+  },
+  {
+    "input": "A team brunch was hosted at a downtown café to celebrate a successful app release.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Celebrations",
+      "l4": "Release Brunch"
+    }
+  },
+  {
+    "input": "Senior leadership flew to Dubai for a corporate governance summit and networking sessions.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Conferences",
+      "l4": "Dubai Governance Summit"
+    }
+  },
+  {
+    "input": "A movie night was sponsored for all employees to celebrate the company’s anniversary.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Anniversary Event",
+      "l4": "Movie Night Celebration"
+    }
+  },
+  {
+    "input": "A holiday gift exchange and dinner was held at a local restaurant for remote-first teams.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Holiday Events",
+      "l4": "Remote Team Dinner"
+    }
+  },
+  {
+    "input": "A regional sales meet-up was organized at a resort to plan Q3 strategies and bonding.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Sales Meetings",
+      "l4": "Q3 Strategy Retreat"
+    }
+  },
+  {
+    "input": "Coffee shop meetings were scheduled by account managers to present new offerings to clients.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Sales Pitches",
+      "l4": "Coffee Pitch Session"
+    }
+  },
+  {
+    "input": "Event tickets were distributed to top-performing employees as a recognition incentive.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Employee Rewards",
+      "l4": "Performance Perks"
+    }
+  },
+  {
+    "input": "Taxi fare was reimbursed for a last-minute client visit scheduled after business hours.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Local Travel",
+      "l3": "Client Support",
+      "l4": "After-Hours Client Visit"
+    }
+  },
+  {
+    "input": "Managers from APAC flew in for the annual performance review conference.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Performance Reviews",
+      "l4": "APAC Manager Travel"
+    }
+  },
+  {
+    "input": "An exclusive offsite was hosted in the hills to reward the top 5% performers across departments.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Incentives",
+      "l4": "Elite Performer Retreat"
+    }
+  },
+  {
+    "input": "Flight tickets and hotel bookings were managed for attending the global CTO roundtable.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Executive Events",
+      "l4": "CTO Roundtable Travel"
+    }
+  },
+  {
+    "input": "The India office arranged a cultural dinner with international clients visiting the headquarters.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Cultural Programs",
+      "l4": "Client Culture Night"
+    }
+  },
+  {
+    "input": "Team members attended a virtual wine and cheese tasting session with couriered kits.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Virtual Events",
+      "l4": "Tasting Event Kit"
+    }
+  },
+  {
+    "input": "Top partners were invited to a luxury golf retreat to strengthen business ties and explore synergies.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Client Engagement",
+      "l3": "Relationship Building",
+      "l4": "Golf Networking Event"
+    }
+  },
+  {
+    "input": "An all-hands offsite was conducted in Goa to align cross-functional teams for the next product cycle.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Strategic Planning",
+      "l4": "Goa Product Offsite"
+    }
+  },
+  {
+    "input": "A business class trip was arranged for the CFO to attend a financial leadership roundtable in Frankfurt.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Executive Summits",
+      "l4": "CFO Leadership Forum"
+    }
+  },
+  {
+    "input": "Gift vouchers for restaurants were distributed to celebrate the team’s quarterly milestones.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Employee Recognition",
+      "l4": "Dining Vouchers"
+    }
+  },
+  {
+    "input": "A team karaoke night was held to boost morale after the successful delivery of a complex project.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Celebration",
+      "l4": "Project Success Karaoke"
+    }
+  },
+  {
+    "input": "The marketing team attended an influencer summit hosted in Bali for networking and branding.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Industry Events",
+      "l4": "Bali Influencer Summit"
+    }
+  },
+  {
+    "input": "Local food tour was sponsored for remote employees visiting the headquarters.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Cultural Welcome",
+      "l4": "City Food Tour"
+    }
+  },
+  {
+    "input": "Flight and lodging were arranged for panelists representing the company at a fintech expo.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Trade Shows",
+      "l4": "Fintech Expo Travel"
+    }
+  },
+  {
+    "input": "Cab fare for after-hours airport drop was reimbursed for a software architect returning from conference.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Local Travel",
+      "l3": "Conference Travel",
+      "l4": "Airport Drop Reimbursement"
+    }
+  },
+  {
+    "input": "A vineyard lunch was hosted for the sales team to mark the end of a record-setting quarter.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Celebration",
+      "l4": "Sales Vineyard Lunch"
+    }
+  },
+  {
+    "input": "Workshop participants received travel stipends for attending the in-person training session.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Training & Development",
+      "l4": "Workshop Travel Support"
+    }
+  },
+  {
+    "input": "Employees were treated to a city cruise dinner to celebrate Diwali with team members and families.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Festive Celebrations",
+      "l4": "Diwali Cruise Dinner"
+    }
+  },
+  {
+    "input": "A wellness retreat in the mountains was hosted for employees post-year-end evaluations.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Wellbeing",
+      "l4": "Mountain Wellness Trip"
+    }
+  },
+  {
+    "input": "Hotel expenses were reimbursed for consultants who traveled to HQ for cross-border alignment workshops.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Workshops",
+      "l4": "Consultant Stay Reimbursement"
+    }
+  },
+  {
+    "input": "Tickets were booked for a regional manager to attend a logistics summit in Amsterdam.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Logistics Events",
+      "l4": "Amsterdam Summit Travel"
+    }
+  },
+  {
+    "input": "A weekend retreat was planned for developers to brainstorm the next-gen product roadmap.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Innovation Retreat",
+      "l4": "Developer Strategy Weekend"
+    }
+  },
+  {
+    "input": "A dinner meet-and-greet was hosted between interns and C-level leaders at a city bistro.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Networking",
+      "l4": "Intern Bistro Dinner"
+    }
+  },
+  {
+    "input": "The finance team attended an annual budgeting bootcamp in an offsite venue with all meals and stay covered.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Financial Planning",
+      "l4": "Budgeting Bootcamp Offsite"
+    }
+  },
+  {
+    "input": "Premium lounge access was reimbursed for frequent flyers attending back-to-back client pitches abroad.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Business Travel",
+      "l3": "Client Meetings",
+      "l4": "Lounge Access Reimbursement"
+    }
+  },
+  {
+    "input": "Employees received food delivery vouchers to enjoy a virtual townhall with remote snacks.",
+    "output": {
+      "l1": "Travel & Entertainment",
+      "l2": "Team Engagement",
+      "l3": "Remote Inclusion",
+      "l4": "Townhall Snack Vouchers"
+    }
+  },
+  {
+    "input": "A fire safety inspection was conducted at the warehouse, and necessary extinguisher refills were completed.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Fire Safety",
+      "l4": "Extinguisher Refill"
+    }
+  },
+  {
+    "input": "The cafeteria kitchen received a full equipment upgrade including new ovens and refrigeration units.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Kitchen Facilities",
+      "l4": "Cafeteria Upgrade"
+    }
+  },
+  {
+    "input": "Annual elevator maintenance was completed with minor mechanical repairs and safety compliance updates.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Elevators",
+      "l4": "Annual Check"
+    }
+  },
+  {
+    "input": "The security team installed new biometric scanners at building entry points for enhanced access control.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Security",
+      "l3": "Access Systems",
+      "l4": "Biometric Setup"
+    }
+  },
+  {
+    "input": "The headquarters' parking lot was resurfaced to improve drainage and safety during the monsoon season.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "Parking",
+      "l4": "Lot Resurfacing"
+    }
+  },
+  {
+    "input": "Backup diesel generators were installed to ensure uninterrupted power supply in case of outages.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Power",
+      "l3": "Generators",
+      "l4": "Emergency Setup"
+    }
+  },
+  {
+    "input": "The office interior was repainted and minor drywall repairs were undertaken over the weekend.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Painting",
+      "l4": "Office Refresh"
+    }
+  },
+  {
+    "input": "New badge entry systems were installed across all floors to improve building access control.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Security",
+      "l3": "Entry Systems",
+      "l4": "Badge Access"
+    }
+  },
+  {
+    "input": "All office restrooms underwent plumbing checks and the replacement of worn fixtures.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Plumbing",
+      "l4": "Restroom Overhaul"
+    }
+  },
+  {
+    "input": "The rooftop solar panel installation was completed, aimed at reducing the building's electricity costs.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Energy",
+      "l3": "Renewables",
+      "l4": "Solar Panels"
+    }
+  },
+  {
+    "input": "The office pantry was expanded to include additional coffee machines and a healthy snack section.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Pantry",
+      "l4": "Pantry Expansion"
+    }
+  },
+  {
+    "input": "Office-wide pest control services were conducted during the weekend shutdown.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Sanitation",
+      "l4": "Pest Control"
+    }
+  },
+  {
+    "input": "A new climate control system was deployed in the data center to prevent overheating.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "HVAC",
+      "l4": "Data Center Cooling"
+    }
+  },
+  {
+    "input": "The landscaping contractor planted new seasonal plants around the campus walkways.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Groundskeeping",
+      "l4": "Seasonal Landscaping"
+    }
+  },
+  {
+    "input": "On-site waste segregation bins were added to promote sustainability in employee practices.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Waste Management",
+      "l4": "Segregation Initiative"
+    }
+  },
+  {
+    "input": "The lighting in shared workspaces was replaced with energy-efficient LED fixtures.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Energy",
+      "l3": "Lighting",
+      "l4": "LED Upgrade"
+    }
+  },
+  {
+    "input": "Noise-reduction acoustic panels were installed in meeting rooms to enhance sound quality.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Soundproofing",
+      "l4": "Acoustic Panels"
+    }
+  },
+  {
+    "input": "The building received a LEED certification after several green infrastructure upgrades.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Certifications",
+      "l4": "LEED Approval"
+    }
+  },
+  {
+    "input": "New signage and floor maps were posted to assist visitors and new hires with office navigation.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Navigation",
+      "l4": "Wayfinding Update"
+    }
+  },
+  {
+    "input": "All meeting rooms were fitted with occupancy sensors to automate lighting and A/C control.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Energy",
+      "l3": "Automation",
+      "l4": "Sensor Setup"
+    }
+  },
+  {
+    "input": "A pest control agency was brought in to tackle a recurring rodent issue in the basement storage area.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Sanitation",
+      "l4": "Rodent Control"
+    }
+  },
+  {
+    "input": "The facilities team installed motion-sensor taps in all washrooms to reduce water wastage.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Water Conservation",
+      "l4": "Sensor Taps"
+    }
+  },
+  {
+    "input": "Carpet flooring in the executive office area was replaced with wooden laminate for easier upkeep.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Flooring",
+      "l4": "Executive Area Upgrade"
+    }
+  },
+  {
+    "input": "New air purifiers were installed in all conference rooms to improve indoor air quality.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Air Quality",
+      "l4": "Purifier Installation"
+    }
+  },
+  {
+    "input": "The main reception area was redesigned to accommodate a contactless check-in kiosk.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Security",
+      "l3": "Visitor Management",
+      "l4": "Kiosk Installation"
+    }
+  },
+  {
+    "input": "The backup water storage tanks were cleaned and disinfected by an external contractor.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Water Systems",
+      "l4": "Tank Cleaning"
+    }
+  },
+  {
+    "input": "Plants were added throughout the office to promote a calming and eco-friendly environment.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Workplace Environment",
+      "l4": "Indoor Plants"
+    }
+  },
+  {
+    "input": "Emergency evacuation signs and escape route maps were updated on all floors.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Evacuation",
+      "l4": "Signage Update"
+    }
+  },
+  {
+    "input": "Additional lockers were installed in the employee changing rooms to accommodate new hires.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Employee Amenities",
+      "l4": "Locker Expansion"
+    }
+  },
+  {
+    "input": "The IT server room received new temperature monitoring sensors for equipment safety.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Monitoring Systems",
+      "l4": "Server Room Sensors"
+    }
+  },
+  {
+    "input": "An automatic door system was added to the main entrance to improve accessibility.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "Accessibility",
+      "l4": "Auto Doors"
+    }
+  },
+  {
+    "input": "The basement parking was equipped with new LED lights and updated security cameras.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Security",
+      "l3": "Surveillance",
+      "l4": "Basement Upgrade"
+    }
+  },
+  {
+    "input": "The backup UPS batteries were replaced as part of regular power continuity planning.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Power",
+      "l3": "Backup Systems",
+      "l4": "UPS Battery Swap"
+    }
+  },
+  {
+    "input": "Breakout areas were refurbished with noise-dampening partitions for better employee focus.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Office Space",
+      "l4": "Breakout Upgrade"
+    }
+  },
+  {
+    "input": "An energy audit was conducted to evaluate consumption patterns and identify savings opportunities.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Energy Audit",
+      "l4": "Efficiency Review"
+    }
+  },
+  {
+    "input": "The fire alarm system was upgraded with new sensors and control panels for better response time.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Fire Safety",
+      "l4": "Alarm Upgrade"
+    }
+  },
+  {
+    "input": "Bike racks were added near the entrance to encourage green commuting among employees.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "Transport",
+      "l4": "Bike Parking"
+    }
+  },
+  {
+    "input": "A deep cleaning of the HVAC ducts was performed to reduce airborne allergens in the office.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "HVAC",
+      "l4": "Duct Cleaning"
+    }
+  },
+  {
+    "input": "Visitor lounges were redesigned with modern seating and ambient lighting for a professional look.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Reception",
+      "l4": "Lounge Upgrade"
+    }
+  },
+  {
+    "input": "Regular checks were scheduled for all generators to ensure operational readiness during outages.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Power",
+      "l3": "Generators",
+      "l4": "Routine Testing"
+    }
+  },
+  {
+    "input": "A new waste segregation unit was installed to promote better recycling practices across departments.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Waste Management",
+      "l4": "Segregation Unit"
+    }
+  },
+  {
+    "input": "All corridor lights were replaced with motion-sensor LEDs to reduce electricity consumption.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "Lighting",
+      "l4": "Motion Sensor LEDs"
+    }
+  },
+  {
+    "input": "The central generator was serviced to maintain backup power reliability during grid outages.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Power",
+      "l3": "Generator Maintenance",
+      "l4": "Backup Readiness"
+    }
+  },
+  {
+    "input": "The rooftop was waterproofed to prevent leaks during the upcoming monsoon season.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Roofing",
+      "l4": "Waterproofing Project"
+    }
+  },
+  {
+    "input": "An in-house team was assigned to inspect and report weekly on all restroom supplies and repairs.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Restroom Management",
+      "l4": "Weekly Audits"
+    }
+  },
+  {
+    "input": "The pantry area received a new coffee machine and modular storage units for better space usage.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Pantry",
+      "l4": "Coffee & Storage"
+    }
+  },
+  {
+    "input": "Visitor parking spots were newly designated with signage and painted lanes.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "Parking",
+      "l4": "Visitor Zone"
+    }
+  },
+  {
+    "input": "Window blinds across all floors were replaced to enhance light control and insulation.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Interiors",
+      "l4": "Blind Replacement"
+    }
+  },
+  {
+    "input": "Emergency exit doors were fitted with glow-in-the-dark signage for better nighttime visibility.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Emergency Preparedness",
+      "l4": "Exit Signage"
+    }
+  },
+  {
+    "input": "The office introduced eco-friendly cleaning products to reduce chemical exposure.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Cleaning Services",
+      "l4": "Green Supplies"
+    }
+  },
+  {
+    "input": "All elevators were tested and certified by a third-party agency for annual compliance.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Elevator Safety",
+      "l4": "Annual Certification"
+    }
+  },
+  {
+    "input": "Noise-insulating panels were installed in the open workspace to improve focus.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Acoustics",
+      "l4": "Soundproofing Panels"
+    }
+  },
+  {
+    "input": "Solar panels were added to the roof to support green energy initiatives.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Energy Efficiency",
+      "l4": "Solar Power"
+    }
+  },
+  {
+    "input": "A drinking water quality test was conducted to ensure health standards were met.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Water Systems",
+      "l4": "Quality Testing"
+    }
+  },
+  {
+    "input": "New lockers were allocated for overnight staff to store their belongings securely.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Employee Amenities",
+      "l4": "Night Shift Lockers"
+    }
+  },
+  {
+    "input": "The reception area introduced a smart queuing system for better visitor management.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Security",
+      "l3": "Visitor Management",
+      "l4": "Smart Queue System"
+    }
+  },
+  {
+    "input": "Fire extinguishers across the facility were refilled and tagged for the new calendar year.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Fire Safety",
+      "l4": "Extinguisher Refill"
+    }
+  },
+  {
+    "input": "The gym area inside the facility was reopened post-maintenance with upgraded equipment.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Employee Amenities",
+      "l3": "Fitness",
+      "l4": "Gym Reopening"
+    }
+  },
+  {
+    "input": "A new signage system was installed to improve floor-wise navigation for guests and staff.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "Navigation",
+      "l4": "Signage Overhaul"
+    }
+  },
+  {
+    "input": "A composting station was introduced at the cafeteria to manage food waste sustainably.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Waste Management",
+      "l4": "Cafeteria Composting"
+    }
+  },
+  {
+    "input": "A deep cleaning drive was conducted over the weekend covering all meeting rooms and collaboration zones.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Cleaning Services",
+      "l4": "Weekend Deep Clean"
+    }
+  },
+  {
+    "input": "The company added additional bicycle racks to support employees commuting by cycle.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "Transportation",
+      "l4": "Bicycle Parking"
+    }
+  },
+  {
+    "input": "The server room's cooling system was upgraded to a more energy-efficient model.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "HVAC",
+      "l4": "Server Room Cooling"
+    }
+  },
+  {
+    "input": "Noise meters were installed in common workspaces to track sound pollution levels.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Environment Monitoring",
+      "l4": "Noise Tracking"
+    }
+  },
+  {
+    "input": "The rooftop cafeteria was redesigned with shaded seating and upgraded appliances.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Cafeteria",
+      "l4": "Rooftop Redesign"
+    }
+  },
+  {
+    "input": "A local artist was commissioned to create murals in the recreational lounge area.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Design",
+      "l3": "Aesthetic Enhancement",
+      "l4": "Lounge Murals"
+    }
+  },
+  {
+    "input": "The main entrance was equipped with an RFID gate for secure and seamless access.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Security",
+      "l3": "Access Control",
+      "l4": "RFID Entry"
+    }
+  },
+  {
+    "input": "Pest control services were scheduled quarterly to prevent infestation in storage areas.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Pest Management",
+      "l4": "Quarterly Control"
+    }
+  },
+  {
+    "input": "Emergency preparedness posters and first-aid kits were distributed across departments.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Emergency Preparedness",
+      "l4": "Awareness & Kits"
+    }
+  },
+  {
+    "input": "Conference rooms were upgraded with smart booking panels for better scheduling.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Technology",
+      "l3": "Smart Devices",
+      "l4": "Room Panels"
+    }
+  },
+  {
+    "input": "A fragrance diffusion system was introduced in common hallways for better ambience.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Environment",
+      "l3": "Air Quality",
+      "l4": "Scent System"
+    }
+  },
+  {
+    "input": "The parking area was re-striped to allow clearer vehicle alignment and direction flow.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Infrastructure",
+      "l3": "Parking",
+      "l4": "Lane Re-striping"
+    }
+  },
+  {
+    "input": "Workstations were spaced out to comply with updated distancing norms post-pandemic.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Workplace Design",
+      "l4": "Distancing Layout"
+    }
+  },
+  {
+    "input": "The facility hosted a green day initiative with indoor plant distribution to departments.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Wellness",
+      "l4": "Indoor Plants Drive"
+    }
+  },
+  {
+    "input": "Ceiling fans in all break areas were replaced with high-efficiency BLDC fans.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Appliances",
+      "l4": "BLDC Upgrade"
+    }
+  },
+  {
+    "input": "Rainwater harvesting units were installed around the building premises.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Water Conservation",
+      "l4": "Harvesting Units"
+    }
+  },
+  {
+    "input": "The warehouse was reorganized with barcode labeling for better storage management.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Inventory",
+      "l4": "Warehouse Reorg"
+    }
+  },
+  {
+    "input": "Portable fire drills were conducted on each floor to train staff in emergency responses.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Training",
+      "l4": "Fire Drill Sessions"
+    }
+  },
+  {
+    "input": "All internal signage was updated with bilingual labels for inclusive communication.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Design",
+      "l3": "Signage",
+      "l4": "Bilingual Labels"
+    }
+  },
+  {
+    "input": "A maintenance dashboard was launched for employees to report facility-related issues.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Technology",
+      "l3": "Issue Tracking",
+      "l4": "Maintenance Portal"
+    }
+  },
+  {
+    "input": "All restroom hand dryers were upgraded to energy-efficient, high-speed models.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Utilities",
+      "l4": "Hand Dryer Upgrade"
+    }
+  },
+  {
+    "input": "Security staff underwent fire safety certification training to improve emergency response capabilities.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Training",
+      "l4": "Fire Safety Training"
+    }
+  },
+  {
+    "input": "The cafeteria floor tiles were replaced due to wear and tear, improving safety and aesthetics.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Flooring",
+      "l4": "Cafeteria Upgrade"
+    }
+  },
+  {
+    "input": "Refrigerated water dispensers were installed on each floor to support employee hydration needs.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Pantry",
+      "l4": "Water Dispensers"
+    }
+  },
+  {
+    "input": "The office lighting system was changed to motion sensor-enabled LED lights to save energy.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Lighting",
+      "l4": "Motion Sensor LEDs"
+    }
+  },
+  {
+    "input": "The rooftop was converted into a solar panel zone for renewable energy generation.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Energy",
+      "l4": "Solar Installation"
+    }
+  },
+  {
+    "input": "Ergonomic training sessions were hosted to teach employees about proper desk posture.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Wellness",
+      "l4": "Posture Workshops"
+    }
+  },
+  {
+    "input": "The company transitioned from plastic to biodegradable utensils in the cafeteria.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Sustainability",
+      "l3": "Waste Management",
+      "l4": "Eco-Friendly Cutlery"
+    }
+  },
+  {
+    "input": "A digital kiosk was installed at the entrance for visitors to check in without assistance.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Technology",
+      "l3": "Visitor Management",
+      "l4": "Self Check-In"
+    }
+  },
+  {
+    "input": "A monthly audit was introduced to monitor air quality and HVAC system efficiency.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Environment Monitoring",
+      "l4": "Air Quality Audit"
+    }
+  },
+  {
+    "input": "All emergency exits were fitted with new push bar doors and exit lighting.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Infrastructure",
+      "l4": "Exit Door Upgrade"
+    }
+  },
+  {
+    "input": "Break rooms were equipped with noise-dampening panels to create a more relaxing space.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Renovation",
+      "l3": "Acoustics",
+      "l4": "Noise Dampening"
+    }
+  },
+  {
+    "input": "Shared printers and copiers were moved to centralized locations to improve accessibility.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Resource Allocation",
+      "l4": "Printer Reorg"
+    }
+  },
+  {
+    "input": "The fire suppression system was inspected and recertified as part of annual compliance.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Fire Safety",
+      "l4": "System Recertification"
+    }
+  },
+  {
+    "input": "Each department was given dedicated storage cabinets to declutter shared workspaces.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Operations",
+      "l3": "Storage",
+      "l4": "Department Cabinets"
+    }
+  },
+  {
+    "input": "A wellness corner with yoga mats and massage chairs was added near the reception.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Design",
+      "l3": "Employee Wellness",
+      "l4": "Relaxation Zone"
+    }
+  },
+  {
+    "input": "Signboards with QR codes for emergency contact info were placed in all elevators.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Information",
+      "l4": "QR Signboards"
+    }
+  },
+  {
+    "input": "Hand sanitizer dispensers were refilled and checked weekly as part of hygiene protocols.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Maintenance",
+      "l3": "Hygiene",
+      "l4": "Sanitizer Check"
+    }
+  },
+  {
+    "input": "Floor plans and evacuation maps were updated following the construction of new meeting rooms.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Safety & Compliance",
+      "l3": "Planning",
+      "l4": "Evacuation Maps"
+    }
+  },
+  {
+    "input": "Reception was upgraded with a digital display wall showing company announcements.",
+    "output": {
+      "l1": "Facilities",
+      "l2": "Technology",
+      "l3": "Communication",
+      "l4": "Digital Wall Display"
+    }
+  }
+]
